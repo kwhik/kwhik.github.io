@@ -7,7 +7,7 @@ layout: home
 
 <img src="images/background_kwhik_1.jpeg" alt="Solar House"/>
 
-Solar energy is abundant and free.  The only obstacles to leveraging this abundant free energy are collecting it when it is available and providing that collected energy when and where you need it.  
+Solar energy is abundant and free.  The only obstacles to leveraging this plentiful energy are collecting it when it is available and providing that collected energy when and where you need it.  
 
 kWhik produces solutions to enable you to harvest and use the energy of the sun  inexpensively and quickly.  
 
