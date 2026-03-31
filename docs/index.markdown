@@ -9,7 +9,7 @@ layout: home
 
 Solar energy is abundant and free.  The only obstacles to leveraging this plentiful resource are collecting it when it is available and providing that harvested energy when and where you need it.  
 
-kWhik produces solutions to enable you to use the energy of the sun inexpensively and quickly.  
+kWhik produces solutions to enable you to harness the energy of the sun inexpensively and quickly.  
 
 We target under $1 per watt for collection capacity and less than five years to payback for the whole system.  At those numbers, people can harvest kilowatt-hours of energy for under ten cents each over a ten-year period, and for even less after completing that initial phase.  
 
