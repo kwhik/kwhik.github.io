@@ -21,6 +21,8 @@ Over time, I leveraged some previous systematic color work with the physical rea
 
 The following describes that system as it exists at this point.
 
+## The Core Concept
+
 ### An ordinal system for colors
 
 The simplest explanation of the color system is to show the basic dozen as a table:
@@ -93,12 +95,13 @@ The color mapping benefits more complex examples by making one part of the infor
 
 <img src="/images/ColorScheme_mlf20260614d_wg_3p.png" width="720" alt="Multiple Dimensions" />
 
+It can be seen in this example that there are more colors and numeric equivalents than the basic twelve.  This will be discussed after some 
 
 ### Simple Numbering
 
-The set of twelve numbers where Aqua (AA) and Yellow (YW) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 values] with AA [GND], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power also located at 8+].  By having yellow be the top most sense wire (11), it allows consistent identification across 4S..10S configurations without collision.  Otherwise the numbers are in order and matching the terminal configuration.
+The set of twelve numbers where Aqua (AA:0) and Yellow (YW:11) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 values] with AA [GND/1-], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power; also located at 8+].  By having yellow be the highest sense wire (11) no matter how many are in series, it allows consistent identification across 4S..10S configurations.  Other than the yellow, the numbers are always in order and match the series terminal configuration.
 
-This is better than being inconsistent with color coding as the SOK was or having no encoding as the JK does out of the box.
+This labeling with simple ordinal meaning is better than having an unrevealed meaning with color coding [SOK] or having no encoding at all [JK].
 
 [[JK BMS sense wires in 4S configuration]]
 
@@ -106,13 +109,27 @@ This is better than being inconsistent with color coding as the SOK was or havin
 
 Given the colors have names and a visible representation, they can be simply be used to label things without any relationship to the objects ordinal values.  For example, by simply labeling screws as 'BE' (blue) and bolts a 'PK' (pink) we can organize tool boxes containing screws and bolts with visual tags. 
 
-<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618a_crib.png" width="240" alt="Box Labels" />
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618a_crib.png" width="360" alt="Box Labels" />
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9090.png" width="480" alt="Color Labeled Boxes" />
 
 A minor benefit is that screws if listed somewhere as a group come before bolts because blue (BE) is before pink.  The name of the group can change and their order is still the same.
 
 Note that 'Wire' and 'Washers' are cheating and using a characteristic of the word 'W' as part of the color chosen for them.  But this is completely arbitrary / artistic vs. meaningful or useful.
+
+## Extended Colors
+
+In total, there are sixty-four (64) colors that are available in the full ordinal color system.  These are divided into the following sets:
+   * G12: Group of 12 as described above
+   * G16: Adds Lime [LE], Navy [NY], Silver [SR], and Teal [TL].  These colors exist in some tapes and non-ordinal color label systems but are rarer or harder to differentiate from other colors.  Of these, Lime [LE] is the most conspicuously different.
+   * G32: Adds a whole new set of 16 colors, labels, and numbers.  This double the sets and in general puts a new entry (label and number) between every existing entry with Aqua and Yellow still being the bookends.
+   * G64: Does the same again with 32 new entries.  Aqua and Yellow are still the bookends.
+
+For these more expansive color systems, a number of the colors are only subtly different in hue from other colors.  As much as possible these subtly different colors are placed one or more steps apart from anything similar in appearance.  Also, some of the names are more unusual but this is less important as the colors are first identified by code (e.g. 'BD') which serves along with the visual color as a mnemonic for the full name ('burlywood').
+
+The collection of all three new groups is shown in the following table:
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618b_cs64.png" width="480" alt="Color Labeled Boxes" />
 
 ## Footnotes
 
