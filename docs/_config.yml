@@ -50,8 +50,10 @@ collections:
 
 header_pages:
   - about.md
+  - pieces.md
   - sources.md
   - stories.md
+  - terms.md
   - topics.md
 
 

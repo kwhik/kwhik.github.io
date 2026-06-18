@@ -17,7 +17,7 @@ styles:
 
 {{ content }}
 
-<h2>Stories</h2>
+<h2>Pieces</h2>
 {% assign filtered_posts = site.posts | where_exp: "item", "item.author == page.name" %}
 
-{% include story_list.html posts=filtered_posts %}
+{% include piece_list.html posts=filtered_posts %}
