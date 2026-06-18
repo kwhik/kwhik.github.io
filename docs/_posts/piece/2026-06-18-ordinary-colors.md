@@ -95,11 +95,11 @@ The color mapping benefits more complex examples by making one part of the infor
 
 <img src="/images/ColorScheme_mlf20260614d_wg_3p.png" width="720" alt="Multiple Dimensions" />
 
-It can be seen in this example that there are more colors and numeric equivalents than the basic twelve.  This will be discussed after some 
+It can be seen in this example that there are more colors and numeric equivalents than the basic twelve.  This will be discussed in the next section after some more examples of using the system.
 
 ### Simple Numbering
 
-The set of twelve numbers where Aqua (AA:0) and Yellow (YW:11) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 values] with AA [GND/1-], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power; also located at 8+].  By having yellow be the highest sense wire (11) no matter how many are in series, it allows consistent identification across 4S..10S configurations.  Other than the yellow, the numbers are always in order and match the series terminal configuration.
+The set of twelve numbers where Aqua (AA:0) and Yellow (YW:11) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 wires] with AA [GND/1-], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power; also located at 8+].  By having yellow be the highest sense wire (11) no matter how many are in series, it allows consistent identification across 4S..10S configurations.  Other than the yellow, the numbers are always in order and match the series terminal configuration.
 
 This labeling with simple ordinal meaning is better than having an unrevealed meaning with color coding [SOK] or having no encoding at all [JK].
 
