@@ -41,7 +41,7 @@ Beyond the physical world, there are fewer constraints on the set of colors avai
 
 #### Ordering
 
-Given that the colors have an alphabetic code with intrinsic ordering, the colors themselves are 'perfectly' ordered.  We are leveraging  just the name, not any quality, of the color for the ordering. Further, Aqua (AA) is always going to be first and Yellow (YW) will be last unless we start adding 'Zulu' or similarly named colors, which is simple to avoid.  
+Given that the colors have a unique alphabetic code with intrinsic ordering, the colors themselves are 'perfectly' ordered.  We are leveraging  just the name, not any quality, of the color for the ordering. Further, Aqua (AA) is always going to be first color and Yellow (YW) will always be the last even within the extended multi-dozen system [[1]](#1)
 
 These characteristics make for both a resilient and expansive labeling approach.
 
@@ -53,7 +53,7 @@ The following work through some core examples of color labeling
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs2_usf.png" width="180" alt="US Fractional" />
 
-The US Fractional color mapping has spacing of '1/32' for the first seven colors up through '7/32' and '1/16' for the second five colors from '1/4' through '1/2'.  This is both practical in relative necessary precision at the smaller sizes and allows the fractions to repeat as an offset, where Yellow (YW) is both '1/2' and '0' compared to a major number.  
+The US Fractional color mapping has spacing of '1/32' for the first seven colors up through '7/32' and '1/16' for the second five colors from '1/4' through '1/2'.  This is both practical in relative necessary precision at the smaller sizes and allows the fractions to repeat as an offset, where Yellow (YW) is either '1/2' (above zero) or '0' above major sizing values in half inches greater than zero.  
 
 Looking again at the hole saws from above:
 
@@ -116,3 +116,4 @@ Note that 'Wire' and 'Washers' are cheating and using a characteristic of the wo
 
 ## Footnotes
 
+* [1] <a id="1"/> It is simple to avoid adding alphabetically later colors like 'Zulu' .  
