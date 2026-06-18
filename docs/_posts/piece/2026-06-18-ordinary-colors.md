@@ -115,7 +115,7 @@ Given the colors have names and a visible representation, they can be simply be 
 
 A minor benefit is that screws if listed somewhere as a group come before bolts because blue (BE) is before pink.  The name of the group can change and their order is still the same.
 
-Note that 'Wire' and 'Washers' are cheating and using a characteristic of the word 'W' as part of the color chosen for them.  But this is completely arbitrary / artistic vs. meaningful or useful.
+Note that 'Wire' and 'Washers' are cheating and using a characteristic of the word 'W' as part of the color chosen for them.  But this is completely arbitrary / artistic vs. meaningful or useful.  Even more conspicuously semantically encoded: the color black (BK) stands for a black finish to the item (bolt, washer, bracket, etc.).  Again not inherently meaningful or necessary, but makes for an easy mnemonic.
 
 ## Extended Colors
 
