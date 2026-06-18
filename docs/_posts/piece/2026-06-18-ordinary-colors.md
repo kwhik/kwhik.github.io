@@ -53,7 +53,13 @@ The following work through some core examples of color labeling
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs2_usf.png" width="180" alt="US Fractional" />
 
-The US Fractional color mapping has spacing of '1/32' for the first seven colors up through '7/32' and '1/16' for the second five colors from '1/4' through '1/2'.  This is both practical in relative necessary precision at the smaller sizes and allows the fractions to repeat as an offset, where Yellow (YW) is both '1/2' and '0' compared to a major number.  If you look at the hole saws above, yellow, brown, purple, and red represent '0', '1/8', '1/4', and '3/8' off the major sizes of '1-inch' or '3-inches'.
+The US Fractional color mapping has spacing of '1/32' for the first seven colors up through '7/32' and '1/16' for the second five colors from '1/4' through '1/2'.  This is both practical in relative necessary precision at the smaller sizes and allows the fractions to repeat as an offset, where Yellow (YW) is both '1/2' and '0' compared to a major number.  
+
+Looking again at the hole saws from above:
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9093.png" width="240" alt="Color Labeled Hole Saws" />
+
+You can see that the yellow, brown, purple, and red represent '0', '1/8', '1/4', and '3/8' off multiple major sizes like '1-inch' or '3-inches'.
 
 #### Color Mapping: Metric and US Bolt Gauge
 
@@ -88,8 +94,25 @@ The color mapping benefits more complex examples by making one part of the infor
 <img src="/images/ColorScheme_mlf20260614d_wg_3p.png" width="720" alt="Multiple Dimensions" />
 
 
+### Simple Numbering
 
+The set of twelve numbers where Aqua (AA) and Yellow (YW) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 values] with AA [GND], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power also located at 8+].  By having yellow be the top most sense wire (11), it allows consistent identification across 4S..10S configurations without collision.  Otherwise the numbers are in order and matching the terminal configuration.
 
+This is better than being inconsistent with color coding as the SOK was or having no encoding as the JK does out of the box.
+
+[[JK BMS sense wires in 4S configuration]]
+
+### Non-Ordinal Labeling
+
+Given the colors have names and a visible representation, they can be simply be used to label things without any relationship to the objects ordinal values.  For example, by simply labeling screws as 'BE' (blue) and bolts a 'PK' (pink) we can organize tool boxes containing screws and bolts with visual tags. 
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618a_crib.png" width="240" alt="Box Labels" />
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9090.png" width="480" alt="Color Labeled Boxes" />
+
+A minor benefit is that screws if listed somewhere as a group come before bolts because blue (BE) is before pink.  The name of the group can change and their order is still the same.
+
+Note that 'Wire' and 'Washers' are cheating and using a characteristic of the word 'W' as part of the color chosen for them.  But this is completely arbitrary / artistic vs. meaningful or useful.
 
 ## Footnotes
 
