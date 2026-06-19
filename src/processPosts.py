@@ -96,7 +96,7 @@ for root, _, filenames in os.walk(sources_filepath):
             print("Ignore:", filename, file_ext, file_ext_map, file=sys.stderr)
             continue
 
-        with fileinput.input(files=infile, inplace=True, backup=".bak") as infile_file:
+        with fileinput.input(files=infile, inplace=True) as infile_file:
             with open(outfile, "w", encoding="utf-8") as outfile_file:
                 # Loop over all the lines in the file
                 for line in infile_file:
