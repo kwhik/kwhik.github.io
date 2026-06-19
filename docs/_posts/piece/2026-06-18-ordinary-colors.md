@@ -36,7 +36,7 @@ The simplest explanation of the color system is to show the basic dozen as a tab
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs_v12.png" width="240" alt="Basic Dozen Colors" />
 
-The code for a color comes from its first and last character, which both reduces collisions (Blue and Black, Green and Grey) and avoids some spelling differences (Gray and Grey).  These dozen colors are available as electrical tape, which is made of PVC so is UV and water resistant, and can be used in the physical world very easily.  
+The code for a color is unique and comes from the first and last characters of its name, which both reduces collisions (Blue and Black, Green and Grey) and avoids some spelling differences (Gray and Grey).  These dozen colors are available as electrical tape, which is made of PVC so is UV and water resistant, and can be used in the physical world very easily.  
 
 
 ##### Color Labeled Boxes
@@ -46,13 +46,13 @@ The code for a color comes from its first and last character, which both reduces
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9093.png" width="240" alt="Color Labeled Hole Saws" />
 
-Beyond the physical world, there are fewer constraints on the set of colors available but the core property of the system 'a color is first a name with a unique code' is maintained there as well.
+Beyond the physical world, there are fewer constraints on the set of colors available but the core property of the system 'a color is firstly a name with a unique code' is maintained there as well.  See [Extended Colors](#extended-colors) for more details.
 
 #### Ordering
 
-Given that the colors have a unique alphabetic code with intrinsic ordering, the colors themselves are 'perfectly' ordered.  We are leveraging  just the name, not any quality, of the color for the ordering. Further, Aqua (AA) is always going to be first color and Yellow (YW) will always be the last even within the extended multi-dozen system [[1]](#1)
+Given that all colors have a unique alphabetic code with an intrinsic ordering, the colors are also 'perfectly' ordered.  This ordering is leveraging just the name of the color and not any visible quality. Further, Aqua (AA) is always going to be first color and Yellow (YW) will always be the last even within the extended multi-dozen system [[1]](#1)
 
-These characteristics make for both a resilient and expansive labeling approach.
+These characteristics of the system make for both a resilient and expansive labeling approach.
 
 ### [Core Mapping Examples ](#core-mapping-examples)
 
@@ -62,7 +62,7 @@ The following work through some core examples of color labeling
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs2_usf.png" width="180" alt="US Fractional" />
 
-The US Fractional color mapping has spacing of '1/32' for the first seven colors up through '7/32' and '1/16' for the second five colors from '1/4' through '1/2'.  This is both practical in relative necessary precision at the smaller sizes and allows the fractions to repeat as an offset, where Yellow (YW) is either '1/2' (above zero) or '0' above major sizing values in half inches greater than zero.  
+The US Fractional color mapping has spacing of '1/32' for the first seven colors up through '7/32' and '1/16' for the next five colors from '1/4' through '1/2'.  This is both practical in relative necessary precision at the smaller sizes and allows the fractions to repeat as an offset, where Yellow (YW) is either '1/2' (above zero) or '0' above major sizing values in half inches greater than zero.  
 
 Looking again at the hole saws from above:
 
