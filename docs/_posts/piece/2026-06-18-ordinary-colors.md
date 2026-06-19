@@ -24,7 +24,7 @@ The following describes that system as it exists at this point.
 #### Table of Contents
 
 {% assign file_basename = page.name | split: "." | first %}
-{% include_relative {{ file_basename }}_toc.txt %}
+{% include_relative 2026-06-18-ordinary-colors_toc.txt %}
 
 ## [The Core Concept](#the-core-concept)
 
