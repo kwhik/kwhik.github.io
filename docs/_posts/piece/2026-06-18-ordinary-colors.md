@@ -50,7 +50,7 @@ Beyond the physical world, there are fewer constraints on the set of colors avai
 
 #### Ordering
 
-Given that all colors have a unique alphabetic code with an intrinsic ordering, the colors are also 'perfectly' ordered.  This ordering is leveraging just the name of the color and not any visible quality. Further, Aqua (AA) is always going to be first color and Yellow (YW) will always be the last even within the extended multi-dozen system [[1]](#1)
+Given that all colors have a unique alphabetic code with an intrinsic ordering, the colors are also 'perfectly' ordered.  This ordering is leveraging just the name of the color and not any visible quality. Further, Aqua (AA) is always going to be first color and Yellow (YW) will always be the last even within the extended multi-dozen system <span id="fr1">[[1]](#fn1)</span>
 
 These characteristics of the system make for both a resilient and expansive labeling approach.
 
@@ -92,9 +92,15 @@ There are more than a dozen commonly used wire sizes within normal solar system 
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs3.png" width="240" alt="US Fractional" />
 
-The choice of this particular mapping makes it possible to connect the two-dimensional circular cross-section to the one dimensional diameter and have approximately the same resistance (and current carrying capacity).
+By having an approximate equivalence between the metric and US units, a single color can identify which crimping die (in Metric) is plausibly right for which US unit.
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9574.png" width="480" alt="Crimping Box" />
+
+
+The choice of this particular mapping also makes it possible to connect the two-dimensional circular cross-section to the one dimensional diameter and have them match with approximately the same resistance and current carrying capacity.
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs3_all.png" width="360" alt="Multiple Dimensions" />
+
 
 ### [More Complex Examples](#more-complex-examples)
 
@@ -140,7 +146,7 @@ The collection of all three new groups is shown in the following table:
 
 ## [Footnotes](#footnotes)
 
-* [1] <a id="1"/> It is simple to avoid adding alphabetically later colors like 'Zulu' .  
+* <span id="fn1">[[1]](#fr1)</span> It is simple to avoid adding alphabetically later colors like 'Zulu' .  
 
 
 
