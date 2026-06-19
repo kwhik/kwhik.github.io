@@ -140,6 +140,8 @@ In total, there are sixty-four (64) colors that are available in the full ordina
 
 For these more expansive color systems, a number of the colors are only subtly different in hue from other colors.  As much as possible these subtly different colors are placed one or more steps apart from anything similar in appearance.  Also, some of the names are more unusual but this is less important as the colors are first identified by code (e.g. 'BD') which serves along with the visual color as a mnemonic for the full name ('burlywood').
 
+### [Color Groups to 64](#color-groups-to-64)
+
 The collection of all three new groups is shown in the following table:
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260619g3_cs64.png" width="480" alt="Color Labeled Boxes" />

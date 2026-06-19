@@ -5,4 +5,5 @@
   * [Simple Numbering](#simple-numbering)
   * [Non-Ordinal Labeling](#non-ordinal-labeling)
 * [Extended Colors](#extended-colors)
+  * [Color Groups to 64](#color-groups-to-64)
 * [Footnotes](#footnotes)
