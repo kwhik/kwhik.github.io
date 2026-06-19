@@ -15,7 +15,7 @@ The following describes how to create a portable electrical system (storage, cha
 #### Table of Contents
 
 {% assign file_basename = page.name | split: "." | first %}
-{% include_relative {{ file_basename }}_toc.txt %}
+{% include_relative 2026-06-17-packout-electrical_toc.txt %}
 
 ### [Introduction](#introduction)
 
@@ -69,11 +69,6 @@ The four 206Ah prismatic cells (e.g. LF206: <https://www.evlithium.com/LiFePO4-B
 
 
 #### Internal Portal
-
-{% assign file_basename = page.name | split: "." | first %}
-{{ file_basename }}
-{% include_relative {{ file_basename }}_toc.txt %}
-
 
 
 ### [Description](#description)
