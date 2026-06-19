@@ -94,7 +94,7 @@ There are more than a dozen commonly used wire sizes within normal solar system 
 
 By having an approximate equivalence between the metric and US units, a single color can identify which crimping die (in Metric) is plausibly right for which US unit.
 
-<img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9574.png" width="480" alt="Crimping Box" />
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9575.png" width="480" alt="Crimping Box" />
 
 
 The choice of this particular mapping also makes it possible to connect the two-dimensional circular cross-section to the one dimensional diameter and have them match with approximately the same resistance and current carrying capacity.
@@ -142,7 +142,7 @@ For these more expansive color systems, a number of the colors are only subtly d
 
 The collection of all three new groups is shown in the following table:
 
-<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618b_cs64.png" width="480" alt="Color Labeled Boxes" />
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260619b_cs64.png" width="480" alt="Color Labeled Boxes" />
 
 ## [Footnotes](#footnotes)
 
