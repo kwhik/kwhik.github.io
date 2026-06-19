@@ -15,7 +15,8 @@ The following describes how to create a portable electrical system (storage, cha
 #### Table of Contents
 
 {% assign file_basename = page.name | split: "." | first %}
-{% include_relative 2026-06-17-packout-electrical_toc.txt %}
+{% assign toc_path = "posts/" | append: file_basename | append: "_toc.txt" %}
+{% include  {{toc_path}} %}
 
 ### [Introduction](#introduction)
 

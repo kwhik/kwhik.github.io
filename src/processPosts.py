@@ -31,6 +31,7 @@ sources = {}
 topics_filepath = "./docs/topics.md"
 citation_filepath = "./docs/_data/citations.yml"
 sources_filepath = "./docs/_posts"
+includes_filepath = "./docs/_includes/posts"
 
 
 # Identify citation lines by the pattern:
@@ -89,7 +90,7 @@ for root, _, filenames in os.walk(sources_filepath):
         # Combine the folder path and file name
         file_name, file_ext = os.path.splitext(filename)
         infile = f"{root}/{filename}"
-        outfile = f"{root}/{file_name}_toc.txt"
+        outfile = f"{includes_filepath}/{file_name}_toc.txt"
         files.append(infile);
         files.append(outfile);
         if (file_ext not in file_ext_map):

@@ -24,8 +24,8 @@ The following describes that system as it exists at this point.
 #### Table of Contents
 
 {% assign file_basename = page.name | split: "." | first %}
-{% assign toc_path = "{{file_basename}}_toc.txt" %}
-{% include {{ toc_path }} %}
+{% assign toc_path = "posts/" | append: file_basename | append: "_toc.txt" %}
+{% include  {{toc_path}} %}
 
 ## [The Core Concept](#the-core-concept)
 
