@@ -129,7 +129,7 @@ Note that 'Wire' and 'Washers' are cheating and using a characteristic of the wo
 In total, there are sixty-four (64) colors that are available in the full ordinal color system.  These are divided into the following sets:
    * G12: Group of 12 as described above
    * G16: Adds Lime [LE], Navy [NY], Silver [SR], and Teal [TL].  These colors exist in some tapes and non-ordinal color label systems but are rarer or harder to differentiate from other colors.  Of these, Lime [LE] is the most conspicuously different.
-   * G32: Adds a whole new set of 16 colors, labels, and numbers.  This double the sets and in general puts a new entry (label and number) between every existing entry with Aqua and Yellow still being the bookends.
+   * G32: Adds a whole new set of 16 colors, labels, and numbers.  This doubles the set size and in general puts a new entry (label and number) between every existing entry with Aqua and Yellow still being the bookends.
    * G64: Does the same again with 32 new entries.  Aqua and Yellow are still the bookends.
 
 For these more expansive color systems, a number of the colors are only subtly different in hue from other colors.  As much as possible these subtly different colors are placed one or more steps apart from anything similar in appearance.  Also, some of the names are more unusual but this is less important as the colors are first identified by code (e.g. 'BD') which serves along with the visual color as a mnemonic for the full name ('burlywood').
