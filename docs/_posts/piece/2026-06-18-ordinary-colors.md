@@ -21,9 +21,14 @@ Over time, I leveraged some previous systematic color work with the physical rea
 
 The following describes that system as it exists at this point.
 
-## The Core Concept
+#### Table of Contents
 
-### An ordinal system for colors
+{% assign file_basename = page.name | split: "." | first %}
+{% include_relative {{ file_basename }}_toc.txt %}
+
+## [The Core Concept](#the-core-concept)
+
+### [An ordinal system for colors](#an-ordinal-system-for-colors)
 
 The simplest explanation of the color system is to show the basic dozen as a table:
 
@@ -47,7 +52,7 @@ Given that the colors have a unique alphabetic code with intrinsic ordering, the
 
 These characteristics make for both a resilient and expansive labeling approach.
 
-### Core Mapping Examples 
+### [Core Mapping Examples ](#core-mapping-examples)
 
 The following work through some core examples of color labeling
 
@@ -89,7 +94,7 @@ The choice of this particular mapping makes it possible to connect the two-dimen
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs3_all.png" width="360" alt="Multiple Dimensions" />
 
-### More Complex Examples
+### [More Complex Examples](#more-complex-examples)
 
 The color mapping benefits more complex examples by making one part of the information "common knowledge".  This benefit arose with the creation of the Wire Gauge requirement chart, which has multiple gauges moving throughout it.  By having systematic ordinal colors, it can make following the wiring requirement easier, including being able to identify requirements on bulkhead posts (which are described in USF not AWG).
 
@@ -97,7 +102,7 @@ The color mapping benefits more complex examples by making one part of the infor
 
 It can be seen in this example that there are more colors and numeric equivalents than the basic twelve.  This will be discussed in the next section after some more examples of using the system.
 
-### Simple Numbering
+### [Simple Numbering](#simple-numbering)
 
 The set of twelve numbers where Aqua (AA:0) and Yellow (YW:11) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 wires] with AA [GND/1-], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power; also located at 8+].  By having yellow be the highest sense wire (11) no matter how many are in series, it allows consistent identification across 4S..10S configurations.  Other than the yellow, the numbers are always in order and match the series terminal configuration.
 
@@ -105,7 +110,7 @@ This labeling with simple ordinal meaning is better than having an unrevealed me
 
 [[JK BMS sense wires in 4S configuration]]
 
-### Non-Ordinal Labeling
+### [Non-Ordinal Labeling](#non-ordinal-labeling)
 
 Given the colors have names and a visible representation, they can be simply be used to label things without any relationship to the objects ordinal values.  For example, by simply labeling screws as 'BE' (blue) and bolts a 'PK' (pink) we can organize tool boxes containing screws and bolts with visual tags. 
 
@@ -117,7 +122,7 @@ A minor benefit is that screws if listed somewhere as a group come before bolts 
 
 Note that 'Wire' and 'Washers' are cheating and using a characteristic of the word 'W' as part of the color chosen for them.  But this is completely arbitrary / artistic vs. meaningful or useful.  Even more conspicuously semantically encoded: the color black (BK) stands for a black finish to the item (bolt, washer, bracket, etc.).  Again not inherently meaningful or necessary, but makes for an easy mnemonic.
 
-## Extended Colors
+## [Extended Colors](#extended-colors)
 
 In total, there are sixty-four (64) colors that are available in the full ordinal color system.  These are divided into the following sets:
    * G12: Group of 12 as described above
@@ -131,6 +136,9 @@ The collection of all three new groups is shown in the following table:
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618b_cs64.png" width="480" alt="Color Labeled Boxes" />
 
-## Footnotes
+## [Footnotes](#footnotes)
 
 * [1] <a id="1"/> It is simple to avoid adding alphabetically later colors like 'Zulu' .  
+
+
+

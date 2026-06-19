@@ -12,7 +12,12 @@ The following describes how to create a portable electrical system (storage, cha
    * Good maximum power output (about 7.5kW)
    * Good storage (10 kWh).
 
-### Introduction
+#### Table of Contents
+
+{% assign file_basename = page.name | split: "." | first %}
+{% include_relative {{ file_basename }}_toc.txt %}
+
+### [Introduction](#introduction)
 
 There are a number of tradeoffs in the different approaches to building an electrical system (defined as a system that has electrical storage, charging, and distribution).  
 * An all-in-one portable generator provides many desirable features in a relatively small form factor.  
@@ -41,7 +46,7 @@ To meet the above goals, additional approach aspects were added to help focus th
 * Having a clean connector system so the system can be assembled and disassembled as rapidly as possible [[2]](#2)
 
 
-### Approach
+### [Approach](#approach)
 
 A core approach described herein is to leverage an unusually good match between the dimensions of the Packout™ Compact Tool Box and the size of the 206Ah LiFePO4 prismatic cell.  Four 206Ah cells easily fit in width, height, and depth within the compact toolbox.  This produces a 12V nominal battery with room for a BMS on top and connectors in the forward section.
 
@@ -49,7 +54,7 @@ A second core approach is to use the sides of the Packout™ system as the conne
 
 By using the sides instead of the front, back, or top, the system is easier to work with individually (multiple portal locations are available on the sides without impeding the toolbox functionality of hinges and stacking) and in standard Packout™ stacks of three or more layers (potentially on a dolly) where the sides are commonly accessible when the back (for example) would likely not be.  At worse, a bit of breathing space needs to be maintained between stack to allow for the 'bus' portals and wiring.
 
-### Walkthrough "Demo"
+### [Walkthrough "Demo"](#walkthrough-demo)
 
 The following walks through a completed system to provide context for the subsequent description.
 
@@ -65,16 +70,19 @@ The four 206Ah prismatic cells (e.g. LF206: <https://www.evlithium.com/LiFePO4-B
 
 #### Internal Portal
 
+{% assign file_basename = page.name | split: "." | first %}
+{{ file_basename }}
+{% include_relative {{ file_basename }}_toc.txt %}
 
 
 
-### Description
+### [Description](#description)
 
 
-### Summary
+### [Summary](#summary)
 
 
-## Footnotes
+## [Footnotes](#footnotes)
 
 * [1] <a id="1"/> Conceptually it would be possible to get all the way to 200A, but the wires would have to be significantly heavier and some space constraints would be hard to meet.
 * [2] <a id="2"/> The connectors add an expense that can be avoided in exchange for longer setup and teardown times but without any loss of functionality otherwise..

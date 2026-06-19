@@ -1,0 +1,8 @@
+* [The Core Concept](#the-core-concept)
+  * [An ordinal system for colors](#an-ordinal-system-for-colors)
+  * [Core Mapping Examples ](#core-mapping-examples)
+  * [More Complex Examples](#more-complex-examples)
+  * [Simple Numbering](#simple-numbering)
+  * [Non-Ordinal Labeling](#non-ordinal-labeling)
+* [Extended Colors](#extended-colors)
+* [Footnotes](#footnotes)
