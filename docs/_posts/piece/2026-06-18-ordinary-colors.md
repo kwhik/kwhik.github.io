@@ -3,7 +3,9 @@ layout: post
 title:  "Ordinary Colors"
 date:   2026-06-18 07:00:00 -0700
 author: Mark Fussell
-category: piece 
+category: piece
+filename: 2026-06-18-ordinary-colors
+
 ---
 
 There are a lot of sizes to track when designing and building both the electrical and the physical aspects of solar systems.  These include sizes of:
@@ -23,8 +25,7 @@ The following describes that system as it exists at this point.
 
 #### Table of Contents
 
-{% assign file_basename = page.name | split: "." | first %}
-{% assign toc_path = "posts/" | append: file_basename | append: "_toc.txt" %}
+{% assign toc_path = "posts/" | append: page.filename | append: "_toc.txt" %}
 {% include  {{toc_path}} %}
 
 ## [The Core Concept](#the-core-concept)

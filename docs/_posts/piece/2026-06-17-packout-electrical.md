@@ -4,6 +4,7 @@ title:  "Packout Portable Electrical System"
 date:   2026-06-17 07:00:00 -0700
 author: Mark Fussell
 category: piece 
+filename: 2026-06-17-packout-electrical
 ---
 
 The following describes how to create a portable electrical system (storage, charging, and distribution) leveraging the Milwaukee® Packout™ storage system.  <!--more--> The main benefits of this approach are:
@@ -14,8 +15,7 @@ The following describes how to create a portable electrical system (storage, cha
 
 #### Table of Contents
 
-{% assign file_basename = page.name | split: "." | first %}
-{% assign toc_path = "posts/" | append: file_basename | append: "_toc.txt" %}
+{% assign toc_path = "posts/" | append: page.filename | append: "_toc.txt" %}
 {% include  {{toc_path}} %}
 
 ### [Introduction](#introduction)
