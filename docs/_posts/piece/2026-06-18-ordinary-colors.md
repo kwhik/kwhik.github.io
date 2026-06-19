@@ -113,7 +113,7 @@ This labeling with simple ordinal meaning is better than having an unrevealed me
 
 ### [Non-Ordinal Labeling](#non-ordinal-labeling)
 
-Given the colors have names and a visible representation, they can be simply be used to label things without any relationship to the objects ordinal values.  For example, by simply labeling screws as 'BE' (blue) and bolts a 'PK' (pink) we can organize tool boxes containing screws and bolts with visual tags. 
+Given the colors have names and a visible representation, they can  simply be used to label things without any relationship to the objects ordinal values.  For example, by simply labeling screws as 'BE' (blue) and bolts a 'PK' (pink) we can organize tool boxes containing screws and bolts with visual tags. 
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260618a_crib.png" width="360" alt="Box Labels" />
 
