@@ -114,9 +114,10 @@ It can be seen in this example that there are more colors and numeric equivalent
 
 The set of twelve numbers where Aqua (AA:0) and Yellow (YW:11) mark the ends enables easy ordinal marking of simple ordinal things.  For example the BMS sense wires for an 8S configuration can be marked from 0..8 + Power [10 wires] with AA [GND/1-], BE [1+], BK [2+], BN [3+], GN [4+], GY [5+], OE [6+], PE [7+], PK [8+], and YW [Power; also located at 8+].  By having yellow be the highest sense wire (11) no matter how many are in series, it allows consistent identification across 4S..10S configurations.  Other than the yellow, the numbers are always in order and match the series terminal configuration.
 
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/IMG_9591.png" width="360" alt="Box Labels" />
+
 This labeling with simple ordinal meaning is better than having an unrevealed meaning with color coding [SOK] or having no encoding at all [JK].
 
-[[JK BMS sense wires in 4S configuration]]
 
 ### [Non-Ordinal Labeling](#non-ordinal-labeling)
 
