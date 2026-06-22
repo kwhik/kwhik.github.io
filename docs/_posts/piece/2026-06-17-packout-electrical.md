@@ -13,6 +13,16 @@ The following describes how to create a portable electrical system (storage, cha
    * Good maximum power output (about 7.5kW)
    * Good storage (10 kWh).
 
+The following two images provide the general concept and approach:
+
+#### Wiring for a 200ah 12V cell
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9619.png" width="360" alt="Box Labels" />
+
+#### Connecting the system main DC stack and bus (for AC and Solar)
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606.png" width="360" alt="Box Labels" />
+
+
 #### Table of Contents
 
 {% assign toc_path = "posts/" | append: page.filename | append: "_toc.txt" %}
@@ -51,9 +61,9 @@ To meet the above goals, additional approach aspects were added to help focus th
 
 A core approach described herein is to leverage an unusually good match between the dimensions of the Packout™ Compact Tool Box and the size of the 206Ah LiFePO4 prismatic cell.  Four 206Ah cells easily fit in width, height, and depth within the compact toolbox.  This produces a 12V nominal battery with room for a BMS on top and connectors in the forward section.
 
-A second core approach is to use the sides of the Packout™ system as the connector location and 'bus' of the system.  The main power bus can be on either side but in here it is shown  to be on the right side when facing a system stack.  Since a Compact Tool Box is only half-width, there is also an internal portal between the left and right Tool Box that allows combining to boxes without external connection.  Full-width boxes have access to both the left and the right side for either bus or additional port connections.
+A second core approach is to use the sides of the Packout™ system as the connector location and 'bus' of the system.  The main power bus can be on either side but in this version it is shown  to be on the right side when facing a system stack.  Since a Compact Tool Box is only half-width, there is also an internal portal between the left and right Tool Box that allows combining two boxes without external connection.  Full-width boxes have access to both the left and the right side for either bus or additional port connections.
 
-By using the sides instead of the front, back, or top, the system is easier to work with individually (multiple portal locations are available on the sides without impeding the toolbox functionality of hinges and stacking) and in standard Packout™ stacks of three or more layers (potentially on a dolly) where the sides are commonly accessible when the back (for example) would likely not be.  At worse, a bit of breathing space needs to be maintained between stack to allow for the 'bus' portals and wiring.
+By using the sides instead of the front, back, or top, the system is easier to work with individually (multiple portal locations are available on the sides without impeding the toolbox functionality of hinges and stacking) and in standard Packout™ stacks of three or more layers (potentially on a dolly) where the sides are commonly accessible when the back (for example) would likely be inaccessible.  At worse, a bit of breathing space needs to be maintained between stacks to allow for the 'bus' portals and wiring.
 
 ### [Walkthrough "Demo"](#walkthrough-demo)
 
@@ -61,13 +71,25 @@ The following walks through a completed system to provide context for the subseq
 
 #### Battery Cells
 
-The four 206Ah prismatic cells (e.g. LF206: <https://www.evlithium.com/LiFePO4-Battery/eve-prismatic-cells-206ah.html>) can fit into the compact toolbox with room to spare on the sides, front, and top.  To keep these cells in position and compressed to avoid expansion, they are sandwhiched between two end plates.
+The four 206Ah prismatic cells (e.g. LF206: <https://www.evlithium.com/LiFePO4-Battery/eve-prismatic-cells-206ah.html>) can fit into the compact toolbox with room to spare on the sides, front, and top.  To keep these cells in position and compressed to avoid expansion, they are sandwiched between two end plates.
+
 
 
 #### BMS
 
+Although the original cells were sources by deconstructing a SOK battery, I upgraded the BMS to a JK for better control, visibility, and power.  Especially being able to turn off the BMS enables avoiding having a physical switch or constantly hot wires.
+
+
+
 #### Primary Power Bus
 
+The main power bus is run between 3/8 (M10) bulkhead pass-through terminals that support about 200A (2/0 or 70mm² equivalent).  The wires are 2AWG (35mm²) so the system is targeting a bit under 150A maximum continuous load, but should be able to handle transitory spikes above that without significant heating.  Fuses are at 150A although possibly should be a bit higher if they are relatively fast acting.
+
+The primary power bus is at whatever voltage is desired.  Each 'cell' produces 12V but two can be combined horizontally and a total of four can be easily combine vertically.  
+
+#### Secondary Power Bus
+
+A secondary power bus is run at lower amperage through either Anderson PP15 or 20A Cigarette Lighter ports.  The cigarette lighter port has the advantage of structural strength, easy accessory support, and is cheaper.  The main advantage of using PP15 is that two 2-pole ports can be combined in the same space.
 
 #### Internal Portal
 
