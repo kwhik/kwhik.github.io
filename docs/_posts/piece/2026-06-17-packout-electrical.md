@@ -16,12 +16,40 @@ The following describes how to create a portable electrical system (storage, cha
 The following two images provide the general concept and approach:
 
 #### Wiring for a 200ah 12V cell
-<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9619.png" width="360" alt="Box Labels" />
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9619_v2.png" width="360" alt="12V Cell Wiring" />
 
 #### Connecting the system main DC stack and bus (for AC and Solar)
 
-<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606.png" width="360" alt="Box Labels" />
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606_v2.png" width="360" alt="Main Stack" />
 
+#### More Photos
+
+##### DC Power
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9407.png" width="360" alt="XX" />
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9619_v2.png" width="360" alt="12V Cell Wiring" />
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9491.png" width="360" alt="XX" />
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9492.png" width="360" alt="XX" />
+
+##### AC Power
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9617.png" width="360" alt="XX" />
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9604.png" width="360" alt="XX" />
+
+##### Solar Power
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9605.png" width="360" alt="XX" />
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606_v2.png" width="360" alt="Main Stack" />
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9538.png" width="360" alt="XX" />
+
+##### BMS
+
+<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9634.png" width="360" alt="XX" />
 
 #### Table of Contents
 
