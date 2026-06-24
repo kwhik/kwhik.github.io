@@ -22,13 +22,6 @@ The following two images provide the general concept and approach:
 
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606_v2.png" width="360" alt="Main Stack" />
 
-#### More Photos
-
-
-
-##### BMS
-
-<img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9634.png" width="360" alt="XX" />
 
 #### Table of Contents
 
@@ -44,7 +37,7 @@ There are a number of tradeoffs in the different approaches to building an elect
  
 With each of the benefits of the approaches just mentioned, there are potentially corresponding penalties to price, flexibility, portability, and so on.
 
-### Portability
+### [Portability](#portability)
 
 One major consideration to enabling a system to be portable is that the weight of the components can not be beyond the abilities of the user to move them.  For a generally useful electrical system the heaviest item is almost always going to be the battery, which weighs about 16-20 lbs (7-9kg) per kWh.  Managing this weight will be one of core aspects to the modular approach.  An additional requirement further defining portability is that it has to be possible to move the components without leveraging wheels and ramps.  Components must be carryable within normal human comfort levels: less than 50lbs.
 
@@ -54,19 +47,19 @@ Beyond the portability considerations, the other aspects are:
 * It should be possible to create a system with >5kW of power generation, and
 * It should be possible to have more than 5kWh of storage
 
-### Additional Aspects
+### [Additional Aspects](#additional-aspects)
 
 To meet the above goals, additional approach aspects were added to help focus the potential solutions.  These include 
 
 * Leveraging the functionality and sizes of the Packout™ tool boxes and organizers
 * Utilizing modern wireless control systems
-* Using reasonably-sized wires (otherwise the wires themselves become a burden).  This was ultimately constrained in the approach described to using wires no bigger than 35mm² (2 AWG), allowing a bit over 100A-sustained comfortably.  [[1]](#1) 
-* Having a clean connector system so the system can be assembled and disassembled as rapidly as possible [[2]](#2)
+* Using reasonably-sized wires (otherwise the wires themselves become a burden).  This was ultimately constrained in the approach described to using wires no bigger than 35mm² (2 AWG), allowing a bit over 100A-sustained comfortably.  <span id="fr1">[[1]](#fn1)</span> 
+* Having a clean connector system so the system can be assembled and disassembled as rapidly as possible  <span id="fr2">[[2]](#fn2)</span>
 
 
 ## [Approach](#approach)
 
-A core approach described herein is to leverage an unusually good match between the dimensions of the Packout™ Compact Tool Box and the size of the 206Ah LiFePO4 prismatic cell.  Four 206Ah cells easily fit in width, height, and depth within the compact toolbox.  This produces a 12V nominal battery with room for a BMS on top and connectors in the forward section.
+A core approach described herein is to leverage an unusually good match between the dimensions of the Packout™ Compact Tool Box ("Ammo Box") and the size of the 206Ah LiFePO4 prismatic cell.  Four 206Ah cells easily fit in width, height, and depth within the compact toolbox.  This produces a 12V nominal battery with room for a BMS on top and connectors in the forward section.
 
 A second core approach is to use the sides of the Packout™ system as the connector location and 'bus' of the system.  The main power bus can be on either side but in this version it is shown  to be on the right side when facing a system stack.  Since a Compact Tool Box is only half-width, there is also an internal portal between the left and right Tool Box that allows combining two boxes without external connection.  Full-width boxes have access to both the left and the right side for either bus or additional port connections.
 
@@ -76,11 +69,11 @@ By using the sides instead of the front, back, or top, the system is easier to w
 
 The following walks through a completed system to provide context for the subsequent description.
 
-* Compact Toolbox Battery
-* AC and Primary Power Bus
-* Solar Power and Secondary Power Bus
+* [Compact Toolbox Battery](#compact-toolbox-battery)
+* [AC and Primary Power Bus](#ac-and-primary-power-bus)
+* [Solar Power and Secondary Power Bus](#solar-power-and-secondary-power-bus)
 
-### Compact Toolbox Battery
+### [Compact Toolbox Battery](#compact-toolbox-battery)
 
 Four 206Ah prismatic cells (e.g. LF206: <https://www.evlithium.com/LiFePO4-Battery/eve-prismatic-cells-206ah.html>) can fit into the compact toolbox with room to spare on the sides, front, and top.  To keep these cells in position and compressed to avoid expansion, they are sandwiched between two end plates.
 
@@ -112,7 +105,7 @@ At this point, the compact toolbox battery is simply a 200Ah 12V DC battery with
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9492.png" width="360" alt="Running with Cigarette Lighter Plugin" />
 
 
-### AC and Primary Power Bus
+### [AC and Primary Power Bus](#ac-and-primary-power-bus)
 
 The main power bus is run between ⅜" (M10) bulkhead pass-through terminals that support about 200A (2/0 or 70mm² equivalent).  The wires are 2AWG (35mm²) so the system is targeting a bit under 150A maximum continuous load, but should be able to handle transitory spikes above that without significant heating.  Fuses are at 150A although possibly should be a bit higher if they are relatively fast acting.
 
@@ -123,11 +116,13 @@ In the example, the primary power bus is running at 12V, so it can attach to oth
 ##### AC Inverter Box
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9617.png" width="360" alt="AC Inverter Box" />
 
+To enable the boxes to be easily assembled, connected, disconnected, and disassembled, Anderson SB-175 connectors are used.  If the wires are long enough, it is possible to disassemble the stack while still keeping the components connected.  
+
 ##### AC Inverter Box in Stack
 
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9604.png" width="360" alt="AC Inverter Box in Stack" />
 
-### Solar Power and Secondary Power Bus
+### [Solar Power and Secondary Power Bus](#solar-power-and-secondary-power-bus)
 
 Solar could hook into the primary power bus, but if it only needs to supply or consume 20A, it can also easily plug into the secondary power bus.
 
@@ -136,7 +131,7 @@ Using a Victron 100/20 MPPT with:
    * Solar Input DC (< 20 amps)
    * Load Output (up to 20A)
 
-We can use a compact organizer with two sets of Anderson plugs to support the three connections.  Using an Organizer makes the lights of the MPPT visible without opening the lid, although it is bluetooth capable so sight visibility isn't required.
+We can use a Compact Organizer with two sets of Anderson plugs to support the three connections.  Using an organizer makes the lights of the MPPT visible without opening the lid, although it is bluetooth capable so sight visibility isn't required.
 
 The Solar box is connected with a Cigarette to Anderson PP45 cable for the 20A connection.  For this example, there are an excessive number of fuses along the secondary power bus: it is fused in the battery itself, along this connector wire, and in the Victron also.
 
@@ -156,13 +151,26 @@ The Solar box is connected with a Cigarette to Anderson PP45 cable for the 20A c
 
 A secondary power bus is run at lower amperage through either Anderson PP45 or 20A Cigarette Lighter ports.  The cigarette lighter port has the advantage of structural strength, easy accessory support, and is cheaper.  The main advantage of using PP45 is that two 2-pole ports can be combined in the same space, and it supports 50% higher amperage.
 
-### [Details](#description)
+## [Details](#description)
+
+Most of the details of the build are pretty visible in the end result, but the following goes through some of the details. 
+
+The mounting plates are "Hex Ply" for the structural strength, heat resistance, and esthetics.  Vertical surfaces are about an inch, where horizontal supported surfaces are a half inch.
+
+The battery fuse is MIDI/AMI to reduce the space required and for consistency with the prismatic cells and BMS (that are commonly ¼" (M6) terminals).  
+
+The cigarette lighter port has the advantage of structural strength, easy accessory support, and is cheaper, so as long as only two-poles need to get out of the battery, it seems the better choice.  
 
 
-### [Summary](#summary)
 
+## [Future Installment](#future-installment)
+
+At this point the 12V version is fairly complete.  Adding a second battery for capacity is possible but doesn't change anything architecturally: there would simply be a pass-through connector between the two battery boxes.  
+
+The next notable version will likely be a 24V version with a balancer, shunt, and a higher-power solar and AC charger (using the primary bus to access 50-100A charging capability).  It may also have a Victron Cerbo for remote monitoring via Wi-Fi and VRM.
 
 ## [Footnotes](#footnotes)
 
-* [1] <a id="1"/> Conceptually it would be possible to get all the way to 200A, but the wires would have to be significantly heavier and some space constraints would be hard to meet.
-* [2] <a id="2"/> The connectors add an expense that can be avoided in exchange for longer setup and teardown times but without any loss of functionality otherwise..
+* <span id="fn1">[[1]](#fr1)</span> Conceptually it would be possible to get all the way to 200A, but the wires would have to be significantly heavier and some space constraints would be hard to meet.
+* <span id="fn2">[[2]](#fr2)</span> The connectors add an expense that can be avoided in exchange for longer setup and teardown times but without any loss of functionality otherwise..
+
