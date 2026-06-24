@@ -15,10 +15,10 @@ The following describes how to create a portable electrical system (storage, cha
 
 The following two images provide the general concept and approach:
 
-#### Wiring for a 200ah 12V cell
+##### Wiring for a 200ah 12V cell
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9619_v2.png" width="360" alt="12V Cell Wiring" />
 
-#### Connecting the system main DC stack and bus (for AC and Solar)
+##### Connecting the system main DC stack and bus (for AC and Solar)
 
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606_v2.png" width="360" alt="Main Stack" />
 
