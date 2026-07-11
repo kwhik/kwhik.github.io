@@ -99,7 +99,7 @@ By having an approximate equivalence between the metric and US units, a single c
 
 The choice of this particular mapping also makes it possible to connect the two-dimensional circular cross-section to the one dimensional diameter and have them match with approximately the same resistance and current carrying capacity.
 
-<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs3_all.png" width="360" alt="Multiple Dimensions" />
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260710a1_cs3_all.png" width="360" alt="Multiple Dimensions" />
 
 
 ### [More Complex Examples](#more-complex-examples)
