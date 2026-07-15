@@ -1,5 +1,1 @@
-* [Vault-1: AIO](#vault-1-aio)
-  * [Core Structural Aspects](#core-structural-aspects)
-  * [The Stencil and Build](#the-stencil-and-build)
-* [Vault-4: Harvester](#vault-4-harvester)
-* [Vault-5: Inverter and AIO](#vault-5-inverter-and-aio)
+* [Vault Details](#vault-details)
