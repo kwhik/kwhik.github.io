@@ -91,7 +91,10 @@ The most important aspect for this is to make sure the precision on the truth is
 
 ### [The Stencil and Build](#the-stencil-and-build)
 
-The critical positions to get right are the structural 3/8" bolts going through the side walls.  
+The critical positioning to get right are the structural 3/8" bolts going through the side walls.  These need to be spaced from the edge and other internal positions sufficiently to prevent collisions with the floor, the potentially present insulation, and any fittings.  They must also have sufficient edge distance on the inner framing wall and outer rails for both grip and washers.  Combining that with build tolerances give the following template for the 17x18 [this is just an old example... numbers to follow]
+
+<img src="/images/posts/piece/2025-01-01-powervault-gen-1/IMG_6552.png" width="360" alt="Example Stencil" />
+
 
 
 ## [Vault-4: Harvester](#vault-4-harvester)
