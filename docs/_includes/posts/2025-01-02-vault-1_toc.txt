@@ -3,3 +3,5 @@
   * [Framing the outside](#framing-the-outside)
   * [Connecting the inside to the outside](#connecting-the-inside-to-the-outside)
 * [The Stencil and Build](#the-stencil-and-build)
+  * [Base Tool Box dimensions](#base-tool-box-dimensions)
+  * [Subfloor and Inner Walls](#subfloor-and-inner-walls)
