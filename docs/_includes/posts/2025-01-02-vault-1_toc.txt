@@ -10,3 +10,6 @@
   * [Inner Fittings and Penetrations](#inner-fittings-and-penetrations)
 * [Additional Structures](#additional-structures)
   * [Inner Shelving](#inner-shelving)
+  * [Outer Circuit Box and Conduit](#outer-circuit-box-and-conduit)
+  * [Getting to the outside of the Vault](#getting-to-the-outside-of-the-vault)
+  * [Outdoor Electrical Box ](#outdoor-electrical-box)
