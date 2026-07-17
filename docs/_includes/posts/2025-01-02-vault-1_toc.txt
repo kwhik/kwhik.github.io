@@ -12,4 +12,6 @@
   * [Inner Shelving](#inner-shelving)
   * [Outer Circuit Box and Conduit](#outer-circuit-box-and-conduit)
   * [Getting to the outside of the Vault](#getting-to-the-outside-of-the-vault)
-  * [Outdoor Electrical Box ](#outdoor-electrical-box)
+  * [Outdoor Electrical Box](#outdoor-electrical-box)
+  * [Outlet Boxes](#outlet-boxes)
+* [Summary](#summary)
