@@ -12,6 +12,7 @@ The following describes how to create a portable electrical system (storage, cha
    * Flexibility in configuration
    * Good maximum power output (about 7.5kW)
    * Good storage (10 kWh).
+ <!--more-->
 
 The following two images provide the general concept and approach:
 

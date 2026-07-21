@@ -14,6 +14,7 @@ There are a lot of sizes to track when designing and building both the electrica
    * **Pipes:** 3/4-inch nominal, various outside dimensions depending on materials, etc.
    * **Holes:** Assorted sizes to accommodate outside diameter, clearance, and tolerance dimensions for the above bolts, pipes, fittings, etc.
    * And so on...
+ <!--more-->
 
 Dealing with the various sizes in diagrams, charts, and especially with physical tools (e.g. drill bits, crimping dies, etc.) can be mentally taxing, especially if a number of the cuts _are really close_ in size and irreversible (or not easily accommodated).  This precision issue combined with tasks getting interrupted or paused makes it handy to have some mental support for determining the sizes you are working with or looking for.
 

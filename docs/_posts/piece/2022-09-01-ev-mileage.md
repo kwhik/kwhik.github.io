@@ -7,6 +7,7 @@ category: piece
 ---
 
 When comparing EVs (Electric Vehicles) and ICE (Internal Combusion Engion) vehicles, don't try to standardize on some strange new concept like MPGe.  <!--more--> Just keep things in the core units of each vehicle: use 'kWh' for EVs and 'gallons' for ICE vehicles.  If you stay with these core energy units and the prices for each,  you can sanely understand compare the different types in cost and distance (and other aspects). 
+ <!--more-->
 
 A lot of EV discussions use misleading or fabricated terminology that make understanding the benefits and drawbacks of EVs (vs. each other and vs. ICE vehicles) more difficult than necessary.
 
