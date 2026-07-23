@@ -24,7 +24,7 @@ The following two images provide the general concept and approach:
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9606_v2.png" width="360" alt="Main Stack" />
 
 
-#### Table of Contents
+#### [Table of Contents](#table-of-contents)
 
 {% assign toc_path = "posts/" | append: page.filename | append: "_toc.txt" %}
 {% include  {{toc_path}} %}
@@ -81,7 +81,7 @@ Four 206Ah prismatic cells (e.g. LF206: <https://www.evlithium.com/LiFePO4-Batte
 ##### Battery Sandwich
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9407.png" width="360" alt="Battery Sandwich" />
 
-#### BMS Mounting
+#### [BMS Mounting](#bms-mounting)
 
 The battery is designed to have the BMS mounted above the cells, with easy access to the terminals for both power and sense/balance wires.  As long as the leads are long enough, the top mounting plate can be removed with connections in place.  Otherwise, power wires or the mounting harness will have to be disconnected.
 
@@ -91,7 +91,7 @@ Note to support the desired amperage of the system, all the power wires are 2AWG
 
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9619_v2.png" width="360" alt="BMS Mounting with JK BMS" />
 
-#### External Access
+#### [External Access](#external-access)
 
 External access is through two ⅜" (M10) bulkhead pass-through terminals and one 'portal' which is most commonly a 20A Cigarette Lighter Port but could be anything of similar size.  There is enough space for three 1.5" (40mm) portals on the side with 2" spacing where the shown example is using 1⅛" and 1¼" holes as needed.
 
@@ -148,7 +148,7 @@ The Solar box is connected with a Cigarette to Anderson PP45 cable for the 20A c
 
 <img src="/images/posts/piece/2026-06-17-packout-electrical/IMG_9538.png" width="360" alt="XX" />
 
-#### Secondary Power Bus
+#### [Secondary Power Bus](#secondary-power-bus)
 
 A secondary power bus is run at lower amperage through either Anderson PP45 or 20A Cigarette Lighter ports.  The cigarette lighter port has the advantage of structural strength, easy accessory support, and is cheaper.  The main advantage of using PP45 is that two 2-pole ports can be combined in the same space, and it supports 50% higher amperage.
 

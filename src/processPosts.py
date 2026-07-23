@@ -29,11 +29,21 @@ pattern1b = r"([^«]*)«([^»]+)»(.*)"
 
 # Identify Topic lines by the pattern:
 # ### Topic-Name
-pattern2 = r"\#\#\# (.*)"
+pattern2 = r"\#(\#+) (.*)"
 
 # Break apart Topic-Name if it matches
 # [Topic-Name](link)
 pattern2b = r"\[([^\[]*)\]\(([^\)]*)\)"
+
+# Identify Topic lines by the pattern:
+# <h#>Topic-Name</h#>
+pattern2h = r"<h(\d)([^\>]*)>(.*)</h(\d)>"
+
+# Break apart Topic-Name if it matches
+# <a...>Topic Name</a>
+pattern2hb = r"<a([^\>]*)>(.*)</a>"
+
+
 
 # Identify Topic lines by the pattern:
 # ## Topic-Name
@@ -89,39 +99,55 @@ for root, _, filenames in os.walk(sources_filepath):
                     # Check for subsection match
                     match2 = re.match(pattern2, line)
                     if match2:
-                        subsection3 = match2.group(1)
-                        subsection3_url = ""
-                        match2b = re.match(pattern2b, subsection3)
-                        if match2b:
-                            subsection3, subsection3_url = match2b.groups()
+                        subsectionDepthStr = match2.group(1)
+                        subsectionDepth = len(subsectionDepthStr)+1
 
-                        subsection3_slug = make_anchor_name(subsection3)
-                        if not subsection3_url:
-                            subsection3_url = "#"+subsection3_slug
+                        if subsectionDepth < 5:
+                            subsection3 = match2.group(2)
+                            subsection3_url = ""
+                            match2b = re.match(pattern2b, subsection3)
+                            if match2b:
+                                subsection3, subsection3_url = match2b.groups()
 
-                        print(f"### [{subsection3}]({subsection3_url})")
-                        print("Found:", subsection3_slug, subsection3_url, file=sys.stderr)
-                        print(f"  * [{subsection3}]({subsection3_url})", file=outfile_file)
+                            subsection3_slug = make_anchor_name(subsection3)
+                            if not subsection3_url:
+                                subsection3_url = "#"+subsection3_slug
 
-                        continue
+                            print(f"#{subsectionDepthStr} [{subsection3}]({subsection3_url})")
+                            print("Found-hash:", subsectionDepth, subsection3_slug, subsection3_url, file=sys.stderr)
+                            if subsectionDepth == 3:
+                                print(f"  * [{subsection3}]({subsection3_url})", file=outfile_file)
+                            elif subsectionDepth == 2:
+                                print(f"* [{subsection3}]({subsection3_url})", file=outfile_file)
 
-                    match3 = re.match(pattern3, line)
-                    if match3:
-                        subsection3 = match3.group(1)
-                        subsection3_url = ""
-                        match2b = re.match(pattern2b, subsection3)
-                        if match2b:
-                            subsection3, subsection3_url = match2b.groups()
+                            continue
 
-                        subsection3_slug = make_anchor_name(subsection3)
-                        if not subsection3_url:
-                            subsection3_url = "#"+subsection3_slug
+                    # Check for subsection match
+                    match2h = re.match(pattern2h, line)
+                    if match2h:
+                        subsectionDepthStr = match2h.group(1)
+                        subsectionDepth = int(subsectionDepthStr)
 
-                        print(f"## [{subsection3}]({subsection3_url})")
-                        print("Found:", subsection3_slug, subsection3_url, file=sys.stderr)
-                        print(f"* [{subsection3}]({subsection3_url})", file=outfile_file)
+                        if subsectionDepth < 5:
+                            subsection3 = match2h.group(3)
+                            subsection3_url = ""
+                            match2hb = re.match(pattern2hb, subsection3)
+                            if match2hb:
+                                subsection3 = match2hb.group(2)
+    #<a href="#multidimensional-relationship">Multidimensional Relationship</a>
 
-                        continue
+                            subsection3_slug = make_anchor_name(subsection3)
+                            if not subsection3_url:
+                                subsection3_url = "#"+subsection3_slug
+
+                            print(f"<h{subsectionDepthStr} id='{subsection3_slug}'><a href='{subsection3_url}'>{subsection3}</a></h{subsectionDepthStr}>")
+                            print("Found-tag:",  subsectionDepth, subsection3_slug, subsection3_url, file=sys.stderr)
+                            if subsectionDepth == 3:
+                                print(f"  * [{subsection3}]({subsection3_url})", file=outfile_file)
+                            elif subsectionDepth == 2:
+                                print(f"* [{subsection3}]({subsection3_url})", file=outfile_file)
+
+                            continue
 
 
                     print(line, end="")

@@ -24,7 +24,7 @@ Over time, I leveraged some previous systematic color work with the physical rea
 
 The following describes that system as it exists at this point.
 
-#### Table of Contents
+#### [Table of Contents](#table-of-contents)
 
 {% assign toc_path = "posts/" | append: page.filename | append: "_toc.txt" %}
 {% include  {{toc_path}} %}
@@ -49,7 +49,7 @@ The code for a color is unique and comes from the first and last characters of i
 
 Beyond the physical world, there are fewer constraints on the set of colors available but the core property of the system 'a color is firstly a name with a unique code' is maintained there as well.  See [Extended Colors](#extended-colors) for more details.
 
-#### Ordering
+#### [Ordering](#ordering)
 
 Given that all colors have a unique alphabetic code with an intrinsic ordering, the colors are also 'perfectly' ordered.  This ordering is leveraging just the name of the color and not any visible quality. Further, Aqua (AA) is always going to be first color and Yellow (YW) will always be the last even within the extended multi-dozen system <span id="fr1">[[1]](#fn1)</span>
 
@@ -59,7 +59,7 @@ These characteristics of the system make for both a resilient and expansive labe
 
 The following work through some core examples of color labeling
 
-#### Color Mapping: US Fractional
+#### [Color Mapping: US Fractional](#color-mapping-us-fractional)
 
 <img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614e_cs2_usf.png" width="180" alt="US Fractional" />
 
@@ -71,7 +71,7 @@ Looking again at the hole saws from above:
 
 You can see that the yellow, brown, purple, and red represent '0', '1/8', '1/4', and '3/8' off multiple major sizes like '1-inch' or '3-inches'.
 
-#### Color Mapping: Metric and US Bolt Gauge
+#### [Color Mapping: Metric and US Bolt Gauge](#color-mapping-metric-and-us-bolt-gauge)
 
 The same color system can be reused in completely unrelated ways as long as either the ordinal aspect is maintained or the ordinal is simply unimportant (e.g. labeling 'tools' as 'red' because... well... lots of Milwaukee packout boxes).  So Metric sizing and US Bolt gauge sizing _could be_ different.  Certainly the color 'red' doesn't mean the dimension is exactly '3/8' of an inch in metric.
 
@@ -85,7 +85,7 @@ The metric sizes are more approximately mapped to the US units.  Ultimately to k
 
 For Metric, the numbers can be added as an offset like the USF values are, but when added as an offset 'BK' becomes '3mm' and the subsequent colors shift by one to make 'PK' = '9mm'.
 
-#### Color Mapping: Wire Gauges
+#### [Color Mapping: Wire Gauges](#color-mapping-wire-gauges)
 
 Wire gauges are based on circular cross-section.  The US has a few systems for labeling the size where the metric system is purely based on mm².  
 
