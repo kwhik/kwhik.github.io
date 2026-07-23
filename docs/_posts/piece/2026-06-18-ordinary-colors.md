@@ -55,7 +55,7 @@ Given that all colors have a unique alphabetic code with an intrinsic ordering, 
 
 These characteristics of the system make for both a resilient and expansive labeling approach.
 
-### [Core Mapping Examples ](#core-mapping-examples)
+### [Core Mapping Examples](#core-mapping-examples)
 
 The following work through some core examples of color labeling
 
