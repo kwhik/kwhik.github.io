@@ -11,6 +11,8 @@ filename: 2026-07-22-useful-characters
 There are a lot of useful characters in the extended [Unicode](https://home.unicode.org) character sets, covering both foreign languages and a large number of useful symbols.  The following are some of the special characters used in documents on this site.  All the Unicode characters can be looked up here: <https://www.compart.com/en/unicode/>
  <!--more-->
 
+### [Set-1](#set-1)
+
 | Name                          | Character | Codepoint                                           |
 |-------------------------------|-----------|-----------------------------------------------------|
 | Cubed (^3)                    | ³         | [U+00B3](https://www.compart.com/en/unicode/U+00B3) |
@@ -26,3 +28,14 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Squared    (^2)               | ²         | [U+00B2](https://www.compart.com/en/unicode/U+00B2) |
 | Three-eighths (3/8)           | ⅜         | [U+215C](https://www.compart.com/en/unicode/U+215C) | 
 | Three-quarters (3/4)          | ¾         | [U+00BE](https://www.compart.com/en/unicode/U+00BE) |
+
+### [Set-2](#set-2)
+
+| Name                          | Character | Codepoint                                           |
+|-------------------------------|-----------|-----------------------------------------------------|
+| Less Than or Equal | ≦ | [U+2266](https://www.compart.com/en/unicode/U+2266) |
+| Greater Than or Equal | ≧ | [U+2267](https://www.compart.com/en/unicode/U+2267) |
+| Approximately Less Than | ≲ | [U+2272](https://www.compart.com/en/unicode/U+2272) |
+| Approximately Greater Than | ≳ | [U+2273](https://www.compart.com/en/unicode/U+2273) |
+| Approximately Less than or Equal | ⪅ | [U+2A85](https://www.compart.com/en/unicode/U+2A85) |
+| Approximately Greater than or Equal | ⪆ | [U+2A86](https://www.compart.com/en/unicode/U+2A86) |
