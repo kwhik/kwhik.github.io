@@ -8,7 +8,7 @@ filename: 2026-07-22-useful-characters
 
 ---
 
-There are a lot of useful characters in the extended [Unicode](https://home.unicode.org) character sets, covering both foreign languages and a large number of useful symbols.  The following are some of the special characters used in other documents.  All the Unicode characters can be looked up here: <https://www.compart.com/en/unicode/>
+There are a lot of useful characters in the extended [Unicode](https://home.unicode.org) character sets, covering both foreign languages and a large number of useful symbols.  The following are some of the special characters used in documents on this site.  All the Unicode characters can be looked up here: <https://www.compart.com/en/unicode/>
  <!--more-->
 
 | Name                          | Character | Codepoint                                           |
