@@ -6,6 +6,6 @@
   * [Compact Toolbox Battery](#compact-toolbox-battery)
   * [AC and Primary Power Bus](#ac-and-primary-power-bus)
   * [Solar Power and Secondary Power Bus](#solar-power-and-secondary-power-bus)
-* [Details](#description)
+* [Details](#details)
 * [Future Installment](#future-installment)
 * [Footnotes](#footnotes)

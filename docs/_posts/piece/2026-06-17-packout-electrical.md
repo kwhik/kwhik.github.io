@@ -152,7 +152,7 @@ The Solar box is connected with a Cigarette to Anderson PP45 cable for the 20A c
 
 A secondary power bus is run at lower amperage through either Anderson PP45 or 20A Cigarette Lighter ports.  The cigarette lighter port has the advantage of structural strength, easy accessory support, and is cheaper.  The main advantage of using PP45 is that two 2-pole ports can be combined in the same space, and it supports 50% higher amperage.
 
-## [Details](#description)
+## [Details](#details)
 
 Most of the details of the build are pretty visible in the end result, but the following goes through some of the details. 
 
