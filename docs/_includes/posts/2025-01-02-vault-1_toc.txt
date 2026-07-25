@@ -1,4 +1,3 @@
-* [System Overview](#system-overview)
 * [Core Structural Aspects](#core-structural-aspects)
   * [Framing the inside](#framing-the-inside)
   * [Framing the outside](#framing-the-outside)
