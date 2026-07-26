@@ -3,7 +3,7 @@
   * [Framing the outside](#framing-the-outside)
   * [Connecting the inside to the outside](#connecting-the-inside-to-the-outside)
 * [The Main Structural Build](#the-main-structural-build)
-  * [Base Tool Box dimensions](#base-tool-box-dimensions)
+  * [Base toolbox dimensions](#base-toolbox-dimensions)
   * [Subfloors and Inner Walls](#subfloors-and-inner-walls)
   * [Outer Rails and Tie-Bolts](#outer-rails-and-tie-bolts)
   * [Inner Fittings and Penetrations](#inner-fittings-and-penetrations)
