@@ -106,11 +106,20 @@ The choice of the particular mappings above also makes it possible to connect th
 
 ### [More Complex Examples](#more-complex-examples)
 
-The color mapping benefits more complex examples by making one part of the information "common knowledge".  This benefit arose with the creation of the Wire Gauge requirement chart, which has multiple gauges moving throughout it.  By having systematic ordinal colors, it can make following the wiring requirement easier, including being able to identify requirements on bulkhead posts (which are described in USF not AWG).
+The color mapping benefits more complex examples by making one part of the information "common knowledge".  
 
-<img src="/images/ColorScheme_mlf20260614d_wg_3p.png" width="720" alt="Multiple Dimensions" />
+#### Wire Gauge Requirement
+This benefit arose with the creation of the Wire Gauge requirement chart, which has multiple gauges moving throughout it.  By having systematic ordinal colors, it can make following the wiring requirement easier, including being able to identify requirements on bulkhead posts (which are described in USF not AWG).
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260614d_wg_3p.png" width="720" alt="Wire Guage Requirement" />
 
 It can be seen in this example that there are more colors and numeric equivalents than the basic twelve.  This will be discussed in the next section after some more examples of using the system.
+
+#### Conduit Sizing
+
+For conduit sizing, we can use the color to both remind people of the amperage of the different wire gauges and to give a color coding to the total aggregate capacity of the conduit (mapping from amperage to color).
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ConduitSizing_mlf20260818a_w960.png" width="960" alt="Conduit Sizing" />
 
 ### [Simple Numbering](#simple-numbering)
 
