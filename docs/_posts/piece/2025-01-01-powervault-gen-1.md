@@ -27,7 +27,7 @@ A PowerVault is a weather-resistant chest that provides for safe electrical usag
 </div>
 
 
-{% include lightbox.html src="/images/posts/piece/2025-01-06-vault-6/IMG_0382_w1280.png" width="740" alt="PowerVault-6 Open Front" %}
+{% include lightbox.html src="/images/posts/piece/2025-01-06-vault-6/IMG_0388_w1280.png" width="740" alt="PowerVault-6 Open Front" %}
 
 
 
