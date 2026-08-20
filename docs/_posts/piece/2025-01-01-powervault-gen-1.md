@@ -12,6 +12,14 @@ A PowerVault is a weather-resistant chest that provides for safe electrical usag
 
  <!--more-->
 
+
+<div style="float:right"><img src="/images/posts/piece/2025-01-03-vault-4/IMG_9973.png" width="300" alt="PowerVault-4 Open Front" /></div>
+<img src="/images/posts/piece/2025-01-01-powervault-gen-1/IMG_9983.png" width="360" alt="PowerVault-1 Closed" />
+
+{% include lightbox.html src="/images/posts/piece/2025-01-06-vault-6/IMG_0382_w1280.png" alt="PowerVault-6 Open Front" %}
+
+
+
 The core characteristics of a PowerVault are a central main vault where electrical equipment is housed, a circuit breaker and junction box, and a front panel providing AC outlets and inlets.  Solar power or other DC power is connected to a vault with outdoor-capable PV wires or through conduit.  
 
 This writeup is after building several of these with varying characteristics.  These varying characteristics include:
