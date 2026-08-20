@@ -17,7 +17,7 @@ The core characteristics of a PowerVault are a central main vault where electric
 This writeup is after building several of these with varying characteristics.  These varying characteristics include:
    * Vault Organization:
      * AIO-Vault (battery/solar/inverter)
-     * Component-vaults (e.g. batter/solar separate from inverter).
+     * Component-vaults (e.g. battery/solar-collector/inverter all in separate vaults).
      * _Note this does not refer to the system components in the vault_
    * Insulation
    * System Aspects:
@@ -29,15 +29,18 @@ This writeup is after building several of these with varying characteristics.  T
 
 The build examples here will be from two vaults:
    * **Vault-1:** A 12V AIO vault
-   * **Vault-4:** A 48V Solar Harvester (MPPT and Batteries)
+   * **Vault-4:** A 48V Solar Harvester (MPPT Collector and a BESS with 48V batteries)
+   * **Vault-6:** Solar Collector (Just the MPPT Collector)
 
-Both vaults have similar design aspects with Vault-4 being the most sophisticated as well as the largest (24x24x30) although Vault-1 is actually the newest as it was rebuilt (fully replaced, just kept the name) after refining design aspects in Vault-4 (and Vault-5).  
+Both Vault-1 and Vault-4 have similar design aspects with Vault-4 being the most sophisticated as well as the largest (24x24x30).  Vault-6
+     is a different shape as it is designed to rest on top of Vault-4 and has a lid.  It can not structurally support items on the side like Vault-1, 4, and 5 can with their more vertical box-based shaped. 
 
-Note that these are pictures of running systems: excuse the mess :-)
+Note that any pictures are of running systems: excuse the mess :-)
 
 ## [Vault Details](#vault-details)
 
 The details of the vaults are in the following pieces:
    * [Vault-1]({% post_url 2025-01-02-vault-1 %})
    * [Vault-4]({% post_url 2025-01-03-vault-4 %})
+   * [Vault-6]({% post_url 2025-01-06-vault-6 %})
 
