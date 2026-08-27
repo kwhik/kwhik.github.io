@@ -19,13 +19,14 @@ styles:
 
 
 
+
 table tr:nth-child(1), /*A*/
 table tr:nth-child(3), /*D*/
 table tr:nth-child(4), /*E*/
-table tr:nth-child(8), /*F*/
-table tr:nth-child(9), /*G*/
-table tr:nth-child(11), /*S*/
-table tr:nth-child(12), /*X*/
+table tr:nth-child(9), /*F*/
+table tr:nth-child(10), /*G*/
+table tr:nth-child(12), /*S*/
+table tr:nth-child(13), /*X*/
 
 table tr:nth-child(1), /*Y*/
 table tr:nth-child(1) /*Z*/
@@ -77,6 +78,7 @@ The following entries contain information on topics, terms, acronyms, and abbrev
 |[DC &darr;](#dc) <a id="d"></a>|Direct Current|
 |[Earthing Electrode &darr;](#earthing-electrode) <a id="e"></a>|Grounding Electrode, EE, GE|
 |[Earthing Electrode Conductor &darr;](#earthing-electrode-conductor)|Grounding Electrode Conductor, EEC, GEC|
+|[Electrode &darr;](#electrode)||
 |[Equipment Grounding Conductor &darr;](#equipment-grounding-conductor)|EGC|
 |[Equipment Grounding System &darr;](#equipment-grounding-system)|EGS|
 |[Floating Conductor &darr;](#floating-conductor) <a id="f"></a>|Ungrounded Conductor, FC, UGC|
@@ -95,15 +97,15 @@ The following entries contain information on topics, terms, acronyms, and abbrev
 {% endcomment %}
 
 
-### AC
+### [AC](#ac)
 
 Alternating Current has a voltage curve that alternates from a positive value and a negative value, passing through zero twice in a full cycle.  For household electricity, AC is modeled after a mathematical sine wave and runs at from 50Hz to 60Hz.  
 
-### Arc
+### [Arc](#arc)
 
 An arc is a connection between two conductors through air.
 
-### DC 
+### [DC ](#dc)
 
 Direct Current supplies a voltage that is relatively stable over time.  It may increase or decrease based on system aspects (e.g. the charging of a battery or the changing of loads on the system) but these are variations around a desired static voltage.
 
@@ -114,6 +116,10 @@ Called the Grounding Electrode (GE) in the NEC, the Earthing Electrode (EE) prov
 ### [Earthing Electrode Conductor](#earthing-electrode-conductor)
 
 Called the Grounding Electrode Conductor (GEC) in the NEC, the Earthing Electrode Conductor (EEC) connects the Equipment Grounding System to the Earthing/Grounding Electrode (EE/GE)
+
+### [Electrode](#electrode)
+
+A conductor used to contact non-metal mediums like the dirt of the earth or the chemicals in a battery.
 
 ### [Equipment Grounding Conductor](#equipment-grounding-conductor)
 
