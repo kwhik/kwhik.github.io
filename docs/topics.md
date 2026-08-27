@@ -1,0 +1,145 @@
+---
+layout: page
+title: Topics
+permalink: /topics/
+author: "Mark Fussell"
+styles:
+  - shiftRight1
+---
+
+<style>
+
+
+
+/*================================== */
+/*=== Topic-section in table styling */
+/*================================== */
+
+
+
+
+
+table tr:nth-child(1), /*A*/
+table tr:nth-child(3), /*D*/
+table tr:nth-child(4), /*E*/
+table tr:nth-child(8), /*F*/
+table tr:nth-child(9), /*G*/
+table tr:nth-child(11), /*S*/
+table tr:nth-child(12), /*X*/
+
+table tr:nth-child(1), /*Y*/
+table tr:nth-child(1) /*Z*/
+   {   
+    color: #2e6da4;
+    font-weight: bold;
+    background-color: #deedf4;
+  }
+
+/*================================== */
+/*=== Topic-Area Header Styling ===*/
+/*================================== */
+
+
+
+#ac,
+#earthing-electrode,
+#floating-conductor,
+#ground-fault,
+#short-circuit,
+#xiaflex,
+#zzz
+{
+    color: #2e6da4;
+    font-weight: bold;
+    background-color: #deedf4;
+    width: 100%;
+    padding: 10px 10px; 
+}
+
+/*================================== */
+/*================================== */
+/*================================== */
+
+</style>
+
+
+The following entries contain information on topics, terms, acronyms, and abbreviations that are related to solar energy systems.
+
+* *Index:*  &nbsp;&nbsp; [A-C](#a) &nbsp;•&nbsp; [D-F](#d) &nbsp;•&nbsp; [G-H](#g) &nbsp;•&nbsp; [I-L](#i) &nbsp;•&nbsp; [M-O](#m) &nbsp;•&nbsp; [P-S](#p) &nbsp;•&nbsp; [T-U](#t) &nbsp;•&nbsp; [V-Z](#v)
+* *Entries:* &nbsp;&nbsp; [A&darr;](#ac) &nbsp;•&nbsp; [E&darr;](#earthing-electrode) &nbsp;•&nbsp; [G&darr;](#ground-fault) &nbsp;•&nbsp; [S&darr;](#short-circuit)
+
+## Index
+
+| Topic                                                                                                                                  | Alternate Name                          | 
+|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+|[AC &darr;](#ac) <a id="a"></a>|Alternating Current|
+|[Arc &darr;](#arc)||
+|[DC &darr;](#dc) <a id="d"></a>|Direct Current|
+|[Earthing Electrode &darr;](#earthing-electrode) <a id="e"></a>|Grounding Electrode, EE, GE|
+|[Earthing Electrode Conductor &darr;](#earthing-electrode-conductor)|Grounding Electrode Conductor, EEC, GEC|
+|[Equipment Grounding Conductor &darr;](#equipment-grounding-conductor)|EGC|
+|[Equipment Grounding System &darr;](#equipment-grounding-system)|EGS|
+|[Floating Conductor &darr;](#floating-conductor) <a id="f"></a>|Ungrounded Conductor, FC, UGC|
+|[Ground Fault &darr;](#ground-fault) <a id="g"></a>||
+|[Grounded Conductor &darr;](#grounded-conductor)|GC|
+|[Short Circuit &darr;](#short-circuit) <a id="s"></a>||
+|[XIAFLEX &darr;](#xiaflex) <a id="x"></a>|Collagenase Clostridium histolyticum|
+|[Xifaxan &darr;](#xifaxan)|Rifaximin|
+
+## Entries
+
+{% comment %}
+====================================================================================
+====================================================================================
+====================================================================================
+{% endcomment %}
+
+
+### AC
+
+Alternating Current has a voltage curve that alternates from a positive value and a negative value, passing through zero twice in a full cycle.  For household electricity, AC is modeled after a mathematical sine wave and runs at from 50Hz to 60Hz.  
+
+### Arc
+
+An arc is a connection between two conductors through air.
+
+### DC 
+
+Direct Current supplies a voltage that is relatively stable over time.  It may increase or decrease based on system aspects (e.g. the charging of a battery or the changing of loads on the system) but these are variations around a desired static voltage.
+
+### [Earthing Electrode](#earthing-electrode)
+
+Called the Grounding Electrode (GE) in the NEC, the Earthing Electrode (EE) provide a relatively-low resistance connection to the physical earth and its voltage reference point.  The 'relatively-low' resistance is much higher than the high-conductance Equipment Grounding System: commonly as much as 25Ω.  But this resistance is much lower than the human body (less than one 40th) or other routes current could take when there is a voltage difference between the EGS and the earth.
+
+### [Earthing Electrode Conductor](#earthing-electrode-conductor)
+
+Called the Grounding Electrode Conductor (GEC) in the NEC, the Earthing Electrode Conductor (EEC) connects the Equipment Grounding System to the Earthing/Grounding Electrode (EE/GE)
+
+### [Equipment Grounding Conductor](#equipment-grounding-conductor)
+
+An Equipment Grounding Conductor (EGC) provides a high-conductance electrical pathway between grounded parts of an Equipment Grounding System (EGS)
+
+### [Equipment Grounding System](#equipment-grounding-system)
+
+A set of conductors providing a high-conductance ground reference frame for an electrical system.  Commonly bonded to the Earthing Electrode
+
+
+### [Floating Conductor](#floating-conductor)
+
+A Floating Conductor (FC) or Ungrounded Conductor (UGC) is a conductor that is not bonded to the Equipment Grounding System.  It if contacts any part of the EGS it is a Ground Fault.
+
+
+### [Ground Fault](#ground-fault)
+
+The contacting of a Floating Conductor and the Equipment Grounding System.
+
+
+
+### [Grounded Conductor](#grounded-conductor)
+
+A Grounded Conductor (GC) is a conductor that has been bonded to the Equipment Grounding System so its voltage is connected to the EGS and current can pass between the grounded conduct
+
+### [Short Circuit](#short-circuit)
+
+The direct contacting of two conductors that carry different voltages.
+
