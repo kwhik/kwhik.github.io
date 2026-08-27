@@ -105,7 +105,7 @@ Alternating Current has a voltage curve that alternates from a positive value an
 
 An arc is a connection between two conductors through air.
 
-### [DC ](#dc)
+### [DC](#dc)
 
 Direct Current supplies a voltage that is relatively stable over time.  It may increase or decrease based on system aspects (e.g. the charging of a battery or the changing of loads on the system) but these are variations around a desired static voltage.
 
