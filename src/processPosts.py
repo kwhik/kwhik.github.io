@@ -58,8 +58,8 @@ def make_anchor_name(name: str) -> str:
     slug = ''.join(c for c in slug if c.isalnum() or c == '-')
 
     # 4. Remove consecutive hyphens
-    while '--' in slug:
-        slug = slug.replace('--', '-')
+    #while '--' in slug:
+    #    slug = slug.replace('--', '-')
 
     return slug
 
