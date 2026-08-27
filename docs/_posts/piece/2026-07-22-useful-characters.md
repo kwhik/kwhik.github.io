@@ -39,3 +39,4 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Approximately Greater Than | ≳ | [U+2273](https://www.compart.com/en/unicode/U+2273) |
 | Approximately Less than or Equal | ⪅ | [U+2A85](https://www.compart.com/en/unicode/U+2A85) |
 | Approximately Greater than or Equal | ⪆ | [U+2A86](https://www.compart.com/en/unicode/U+2A86) |
+| Left Right Double Arrow | ⇔ | [U+21D4](https://www.compart.com/en/unicode/U+21D4) |
