@@ -103,7 +103,7 @@ Alternating Current has a voltage curve that alternates from a positive value an
 
 ### [Arc](#arc)
 
-An arc is a connection between two conductors through air.
+An electric arc is a connection between two conductors through air.  It occurs when the conductance of the air is sufficient for current to flow between the voltage gap of the two conductors, at which point the arc itself increases the conductance of the air by ionizing it into a plasma.  To extinguish the arc (a) the voltage has to be lowered, (b) the conductors further separated to increase resistance, or (c) the air treated (cooled and deionized) to lower its conductance.
 
 ### [DC](#dc)
 
