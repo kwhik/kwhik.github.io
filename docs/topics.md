@@ -25,8 +25,9 @@ table tr:nth-child(3), /*D*/
 table tr:nth-child(4), /*E*/
 table tr:nth-child(9), /*F*/
 table tr:nth-child(10), /*G*/
-table tr:nth-child(12), /*S*/
-table tr:nth-child(13), /*X*/
+table tr:nth-child(12), /*M*/
+table tr:nth-child(13), /*S*/
+table tr:nth-child(16), /*X*/
 
 table tr:nth-child(1), /*Y*/
 table tr:nth-child(1) /*Z*/
@@ -43,10 +44,12 @@ table tr:nth-child(1) /*Z*/
 
 
 #ac,
+#dc,
 #earthing-electrode,
 #floating-conductor,
 #ground-fault,
-#short-circuit,
+#main-bonding-jumper,
+#separately-derived-system,
 #xiaflex,
 #zzz
 {
@@ -73,20 +76,21 @@ The following entries contain information on topics, terms, acronyms, and abbrev
 
 | Topic                                                                  | Alternate Name                          | 
 |------------------------------------------------------------------------|-----------------------------------------|
-| [AC &darr;](#ac) <a id="a"></a>                                        | Alternating Current                     |
-| [Arc &darr;](#arc)                                                     |                                         |
-| [DC &darr;](#dc) <a id="d"></a>                                        | Direct Current                          |
-| [Earthing Electrode &darr;](#earthing-electrode) <a id="e"></a>        | Grounding Electrode, EE, GE             |
-| [Earthing Electrode Conductor &darr;](#earthing-electrode-conductor)   | Grounding Electrode Conductor, EEC, GEC |
-| [Electrode &darr;](#electrode)                                         |                                         |
-| [Equipment Grounding Conductor &darr;](#equipment-grounding-conductor) | EGC                                     |
-| [Equipment Grounding Mesh &darr;](#equipment-grounding-mesh)           | EGM                                     |
-| [Floating Conductor &darr;](#floating-conductor) <a id="f"></a>        | Ungrounded Conductor, FC, UGC           |
-| [Ground Fault &darr;](#ground-fault) <a id="g"></a>                    |                                         |
-| [Grounded Conductor &darr;](#grounded-conductor)                       | GC                                      |
-| [Short Circuit &darr;](#short-circuit) <a id="s"></a>                  |                                         |
-| [XIAFLEX &darr;](#xiaflex) <a id="x"></a>                              | Collagenase Clostridium histolyticum    |
-| [Xifaxan &darr;](#xifaxan)                                             | Rifaximin                               |
+|[AC &darr;](#ac) <a id="a"></a>|Alternating Current|
+|[Arc &darr;](#arc)||
+|[DC &darr;](#dc) <a id="d"></a>|Direct Current|
+|[Earthing Electrode &darr;](#earthing-electrode) <a id="e"></a>|Grounding Electrode, EE, GE|
+|[Earthing Electrode Conductor &darr;](#earthing-electrode-conductor)|Grounding Electrode Conductor, EEC, GEC|
+|[Electrode &darr;](#electrode)||
+|[Equipment Grounding Conductor &darr;](#equipment-grounding-conductor)|EGC|
+|[Equipment Grounding Mesh &darr;](#equipment-grounding-mesh)|EGM|
+|[Floating Conductor &darr;](#floating-conductor) <a id="f"></a>|Ungrounded Conductor, FC, UGC|
+|[Ground Fault &darr;](#ground-fault) <a id="g"></a>||
+|[Grounded Conductor &darr;](#grounded-conductor)|GC|
+|[Main Bonding Jumper &darr;](#main-bonding-jumper) <a id="m"></a>|MBJ|
+|[Separately Derived System &darr;](#separately-derived-system) <a id="s"></a>|SDS|
+|[Short Circuit &darr;](#short-circuit)||
+|[System Bonding Jumper &darr;](#system-bonding-jumper)|SBJ|
 
 ## Entries
 
