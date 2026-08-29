@@ -71,22 +71,22 @@ The following entries contain information on topics, terms, acronyms, and abbrev
 
 ## Index
 
-| Topic                                                                                                                                  | Alternate Name                          | 
-|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-|[AC &darr;](#ac) <a id="a"></a>|Alternating Current|
-|[Arc &darr;](#arc)||
-|[DC &darr;](#dc) <a id="d"></a>|Direct Current|
-|[Earthing Electrode &darr;](#earthing-electrode) <a id="e"></a>|Grounding Electrode, EE, GE|
-|[Earthing Electrode Conductor &darr;](#earthing-electrode-conductor)|Grounding Electrode Conductor, EEC, GEC|
-|[Electrode &darr;](#electrode)||
-|[Equipment Grounding Conductor &darr;](#equipment-grounding-conductor)|EGC|
-|[Equipment Grounding System &darr;](#equipment-grounding-system)|EGS|
-|[Floating Conductor &darr;](#floating-conductor) <a id="f"></a>|Ungrounded Conductor, FC, UGC|
-|[Ground Fault &darr;](#ground-fault) <a id="g"></a>||
-|[Grounded Conductor &darr;](#grounded-conductor)|GC|
-|[Short Circuit &darr;](#short-circuit) <a id="s"></a>||
-|[XIAFLEX &darr;](#xiaflex) <a id="x"></a>|Collagenase Clostridium histolyticum|
-|[Xifaxan &darr;](#xifaxan)|Rifaximin|
+| Topic                                                                  | Alternate Name                          | 
+|------------------------------------------------------------------------|-----------------------------------------|
+| [AC &darr;](#ac) <a id="a"></a>                                        | Alternating Current                     |
+| [Arc &darr;](#arc)                                                     |                                         |
+| [DC &darr;](#dc) <a id="d"></a>                                        | Direct Current                          |
+| [Earthing Electrode &darr;](#earthing-electrode) <a id="e"></a>        | Grounding Electrode, EE, GE             |
+| [Earthing Electrode Conductor &darr;](#earthing-electrode-conductor)   | Grounding Electrode Conductor, EEC, GEC |
+| [Electrode &darr;](#electrode)                                         |                                         |
+| [Equipment Grounding Conductor &darr;](#equipment-grounding-conductor) | EGC                                     |
+| [Equipment Grounding Mesh &darr;](#equipment-grounding-mesh)           | EGM                                     |
+| [Floating Conductor &darr;](#floating-conductor) <a id="f"></a>        | Ungrounded Conductor, FC, UGC           |
+| [Ground Fault &darr;](#ground-fault) <a id="g"></a>                    |                                         |
+| [Grounded Conductor &darr;](#grounded-conductor)                       | GC                                      |
+| [Short Circuit &darr;](#short-circuit) <a id="s"></a>                  |                                         |
+| [XIAFLEX &darr;](#xiaflex) <a id="x"></a>                              | Collagenase Clostridium histolyticum    |
+| [Xifaxan &darr;](#xifaxan)                                             | Rifaximin                               |
 
 ## Entries
 
@@ -125,9 +125,9 @@ A conductor used to contact non-metal mediums like the dirt of the earth or the 
 
 An Equipment Grounding Conductor (EGC) provides a high-conductance electrical pathway between grounded parts of an Equipment Grounding System (EGS)
 
-### [Equipment Grounding System](#equipment-grounding-system)
+### [Equipment Grounding Mesh](#equipment-grounding-mesh)
 
-A set of conductors providing a high-conductance ground reference frame for an electrical system.  Commonly bonded to the Earthing Electrode
+The Equipment Grounding Mesh (EGM) is the interconnect network  of conductors providing a high-conductance ground reference frame for an electrical system.  Commonly bonded to the Earthing Electrode (EE or GE) via an Earthing Electrode Conducter (EEC or GEC)
 
 
 ### [Floating Conductor](#floating-conductor)
@@ -145,7 +145,21 @@ The contacting of a Floating Conductor and the Equipment Grounding System.
 
 A Grounded Conductor (GC) is a conductor that has been bonded to the Equipment Grounding System so its voltage is connected to the EGS and current can pass between the grounded conduct
 
+### [Main Bonding Jumper](#main-bonding-jumper)
+
+The Main Bonding Jumper (MPJ) is an SBJ (System Bonding Jumper) for the (assumed) primary grid power source.
+
+### [Separately Derived System](#separately-derived-system)
+
+A Separately Derived System (SDS) is the label given by the NEC to any power sources other than the (assumed) primary grid power source when the alternative power source manages its own EGM and Earthing.
+
 ### [Short Circuit](#short-circuit)
 
 The direct contacting of two conductors that carry different voltages.
+
+### [System Bonding Jumper](#system-bonding-jumper)
+
+A System Bonding Jumper (SBJ) is a conductor that bonds the Equipment Grounding Mesh (EGM) to a grounded conductor (e.g. AC-Neutral or DC-).  In a Solar-powered system there are several power sources, and these can be organized as separate power systems (or Separately Derived System by NEC terms) that each need to manage their own grounding and earthing.
+
+The Main Bonding Jumper (NEC term) is an SBJ for the main service entrance.
 
