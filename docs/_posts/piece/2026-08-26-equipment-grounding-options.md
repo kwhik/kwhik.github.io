@@ -28,7 +28,7 @@ Note that both the Battery and the MPPT (Solar Charge Controller) have a DC- tha
 
 ### [SV-1: Three Independent Power Systems](#sv-1-three-independent-power-systems)
 
-The following shows the situation if each power system is treated as completely independent for grounding and earthing considerations (all labeled as 'separately derived system' by NEC).  Given they are independent, they must manage their own Equipment Grounding Mesh [Equipment Grounding Mesh](/topics/#equipment-grounding-mesh) (EGM) and Earthing.  So they each have an SBJ ([System Bonding Jumper](/topics/#system-bonding-jumper)), their own  [Earthing Electrode](/topics/#earthing-electrode) (EE or GE), and an appropriate mesh of connected [Equipment Grounding Conductor](/topics/#equipment-grounding-conductor)s (EGCs). 
+The following shows the situation if each power system is treated as completely independent for grounding and earthing considerations (all labeled as 'separately derived system' by NEC).  Given they are independent, they must manage their own Equipment Grounding Mesh [Equipment Grounding Mesh](/topics/#equipment-grounding-mesh) (EGM) and Earthing.  So they each have an SBJ ([System Bonding Jumper](/topics/#system-bonding-jumper)), their own [Earthing Electrode](/topics/#earthing-electrode) (EE or GE), and an appropriate mesh of connected [Equipment Grounding Conductors](/topics/#equipment-grounding-conductor) (EGCs). 
 
 In this configuration, there is _no interconnection_ of the different EGMs: no EGCs connecting between the systems.  The only electrical connection are a DC+ and DC- between systems.
 
@@ -40,7 +40,9 @@ In this configuration, there is _no interconnection_ of the different EGMs: no E
 
 ### [SV-2: Single EG System and GE](#sv-2-single-eg-system-and-ge)
 
-On the other extreme, all three systems can be tied together into one EG (Equipment Grounding) system, one SBJ for that system, and one GEC/GE for that system.  The location of the SBJ and GEC/GE could be any one of the three 'boxes'. 
+On the other extreme, all three subsystems can be tied together into one [Equipment Grounding Mesh](/topics/#equipment-grounding-mesh) (EGM).  In that case there is only one [SBJ](/topics/#system-bonding-jumper), one [Earthing Electrode](/topics/#earthing-electrode) and one [EEC](/topics/#earthing-electrode-conductor) for the full system.  All [EGCs](/topics/#equipment-grounding-conductor) are interconnected into a single mesh with appropriate conductivity for the given coverage area.  
+
+With this approach, the location of the SBJ and GEC/GE could be any one of the three 'boxes' and electrically (if not practically given other considerations) they would be identical as long as the conductivity of the EGC wires was sufficient.
 
 #### [SV-2a: S1⇔S2⇔S3 • SBJ-1](#sv-2a-s1s2s3--sbj-1)
 
