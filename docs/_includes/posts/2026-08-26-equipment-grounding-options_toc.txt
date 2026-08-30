@@ -1,5 +1,5 @@
 * [Overview ](#overview)
-  * [SV-1: Independent Systems](#sv-1-independent-systems)
+  * [SV-1: Three Independent Power Systems](#sv-1-three-independent-power-systems)
   * [SV-2: Single EG System and GE](#sv-2-single-eg-system-and-ge)
   * [SV-3: Binding System-2 and System-3 into one EG System](#sv-3-binding-system-2-and-system-3-into-one-eg-system)
 * [Ground Fault Examples](#ground-fault-examples)

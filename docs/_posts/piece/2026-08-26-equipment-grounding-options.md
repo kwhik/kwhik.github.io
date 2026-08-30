@@ -10,7 +10,8 @@ filename: 2026-08-26-equipment-grounding-options
 
 The following discusses the details and characteristics among different variations of equipment grounding and system earthing approaches when dealing with multiple power-producing subsystems.
 
-It primarily focuses on how the behavior of ground faults across a three-system macrosystem varies depending on the equipment-grounding approach.
+It primarily focuses on how the behavior of ground faults across three subsystems
+varies depending on the equipment-grounding approach between the subsystems.
 
  <!--more-->
 
@@ -21,13 +22,15 @@ It primarily focuses on how the behavior of ground faults across a three-system 
 
 ## [Overview ](#overview)
 
-The following subsections show a simple three-system (S1, S2, and S3) combined into an integrated macrosystem where the left system (S1) has a battery power source/sink and the right system (S3) has a solar power source.  The system in between (S2) primarily sends power from S3 to S1 although the relationship to S1 is bidirectional (e.g. S2 has power from S1 when no solar power is present).  
+The following subsections show three simple subsystems (S1, S2, and S3) combined into an integrated macrosystem where the left subsystem (S1) has a battery power source/sink and the right subsystem (S3) has a solar power source.  The subsystem in between (S2) primarily sends power from S3 to S1, but the relationship to S1 is bidirectional (e.g. S2 has power from S1 when no solar power is present).  
 
-The Battery and the MPPT (Solar Charge Controller) both have common a neutral that is  on both the left and right.  This is achieved either internally (e.g. for the MPPT) or externally (e.g. through a busbar).  
+Note that both the Battery and the MPPT (Solar Charge Controller) have a DC- that is common to their two conductors (left and right from their 'boxes').  This connection comes from either an internal jumper (e.g. inside the MPPT) or through a common external busbar (e.g. the battery connections).  
 
-### [SV-1: Independent Systems](#sv-1-independent-systems)
+### [SV-1: Three Independent Power Systems](#sv-1-three-independent-power-systems)
 
-The following shows the situation if each system is treated as completely independent for grounding and earthing considerations.  They each have their own SBJ (System Bonding Jumper) and their own GE (Grounding Electrode / Earthing Electrode) and GEC (Grounding Electrode Conductor)
+The following shows the situation if each power system is treated as completely independent for grounding and earthing considerations (all labeled as 'separately derived system' by NEC).  Given they are independent, they must manage their own Equipment Grounding Mesh [Equipment Grounding Mesh](/topics/#equipment-grounding-mesh) (EGM) and Earthing.  So they each have an SBJ ([System Bonding Jumper](/topics/#system-bonding-jumper)), their own  [Earthing Electrode](/topics/#earthing-electrode) (EE or GE), and an appropriate mesh of connected [Equipment Grounding Conductor](/topics/#equipment-grounding-conductor)s (EGCs). 
+
+In this configuration, there is _no interconnection_ of the different EGMs: no EGCs connecting between the systems.  The only electrical connection are a DC+ and DC- between systems.
 
 
 #### [SV-1: S1,S2,S3](#sv-1-s1s2s3)
