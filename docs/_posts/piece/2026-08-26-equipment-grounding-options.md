@@ -37,7 +37,7 @@ In this configuration, there is _no interconnection_ of the different EGMs: no E
 
 Note that both the Battery and the MPPT (Solar Charge Controller) have a DC- that is common to their two conductors (labeled 'a' and 'b' and a dotted jumper across the device).  This connection comes from either an internal jumper (e.g. inside the MPPT) or through a common external busbar (e.g. the battery connections).
 
-#### Example Wire Sizes for Power
+#### [Example Wire Sizes for Power](#example-wire-sizes-for-power)
 
 To discuss equipment grounding later, it will be useful to specify a realistic set of wire sizes and amperages.  For this explanation the system will be defined as the following:
    * 48V nominal voltage
@@ -55,7 +55,7 @@ To handle the current for this system we would need the following wire capacitie
 Note the colors on the diagram match the color system described in [Ordinary Colors: Multidimensional Relationship]({% post_url 2026-06-18-ordinary-colors %}#multidimensional-relationship)
 
 
-#### Example Wire Sizes for Equipment Grounding
+#### [Example Wire Sizes for Equipment Grounding](#example-wire-sizes-for-equipment-grounding)
 
 To support the grounding of each system (discussed below) we will need the [SBJs](/topics/#system-bonding-jumper) to be sized as follows:
    * SBJ-1 = 65A for the 200A S1a — 6 AWG • 65mm²
@@ -66,7 +66,7 @@ To support the grounding of each system (discussed below) we will need the [SBJs
 
 This is just an example, but gives a feel for the likely difference in wire capacity for the various subsystems and their interconnections, and will show the capacity issues with some of the inter-subsystem equipment grounding configurations.
 
-### [SV-2: Single EG System and GE](#sv-2-single-eg-system-and-ge)
+### [SV-2: Unified System Equipment Grounding Mesh](#sv-2-unified-system-equipment-grounding-mesh)
 
 On the other extreme, all three subsystems can be tied together into one [Equipment Grounding Mesh](/topics/#equipment-grounding-mesh) (EGM).  In that case there is only one [SBJ](/topics/#system-bonding-jumper), one [Earthing Electrode](/topics/#earthing-electrode) and one [EEC](/topics/#earthing-electrode-conductor) for the full system.  All [EGCs](/topics/#equipment-grounding-conductor) are interconnected into a single mesh with appropriate conductivity for the given coverage area.  
 

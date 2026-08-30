@@ -1,6 +1,6 @@
 * [Overview ](#overview)
   * [SV-1: Three Independent Power Systems](#sv-1-three-independent-power-systems)
-  * [SV-2: Single EG System and GE](#sv-2-single-eg-system-and-ge)
+  * [SV-2: Unified System Equipment Grounding Mesh](#sv-2-unified-system-equipment-grounding-mesh)
   * [SV-3: Binding System-2 and System-3 into one EG System](#sv-3-binding-system-2-and-system-3-into-one-eg-system)
 * [Ground Fault Examples](#ground-fault-examples)
   * [Variation-1 : All Independent Systems](#variation-1--all-independent-systems)
