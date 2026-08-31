@@ -109,6 +109,10 @@ Alternating Current has a voltage curve that alternates from a positive value an
 
 An electric arc is a connection between two conductors through air.  It occurs when the conductance of the air is sufficient for current to flow between the voltage gap of the two conductors, at which point the arc itself increases the conductance of the air by ionizing it into a plasma.  To extinguish the arc (a) the voltage has to be lowered, (b) the conductors further separated to increase resistance, or (c) the air treated (cooled and deionized) to lower its conductance.
 
+### Clearing Fault
+
+Clearing a fault in general means removing (i.e. fixing) the cause of the fault.  For the NEC, it also means disconnecting the power source enabling the fault.
+
 ### [DC](#dc)
 
 Direct Current supplies a voltage that is relatively stable over time.  It may increase or decrease based on system aspects (e.g. the charging of a battery or the changing of loads on the system) but these are variations around a desired static voltage.
@@ -131,7 +135,9 @@ An Equipment Grounding Conductor (EGC) provides a high-conductance electrical pa
 
 ### [Equipment Grounding Mesh](#equipment-grounding-mesh)
 
-The Equipment Grounding Mesh (EGM) is the interconnect network  of conductors providing a high-conductance ground reference frame for an electrical system.  Commonly bonded to the Earthing Electrode (EE or GE) via an Earthing Electrode Conducter (EEC or GEC)
+The Equipment Grounding Mesh (EGM) is the interconnected network of conductors providing a high-conductance ground-reference frame for an electrical system.  The core goal of the EGM is to make it so ground faults can rapidly disconnect the faulting power source (through an OCPD: e.g. breaker or fuse) by providing a low-impedance return path to the source and protection-device.  This rapidly triggers the OCPD, potentially within milliseconds.
+
+The EGM is commonly bonded to the Earthing Electrode (EE or GE) via an Earthing Electrode Conducter (EEC or GEC) for systems where that is possible.  In vehicles earthing is normally not present unless attached to 'shore-power' or an earthing point.  The core capabilities of the EGM to handle ground faults do not require it being earthed.
 
 
 ### [Floating Conductor](#floating-conductor)

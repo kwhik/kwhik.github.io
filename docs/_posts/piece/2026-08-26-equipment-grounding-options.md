@@ -234,13 +234,16 @@ As was true in SV-2a, the EGC capacity for the circuitous flow of GF-5 uses wire
 
 ### [SV-3 Discussion](#sv-3-discussion)
 
-The SV-3 variation has one significant advantage of SV-2a: it handles ground faults (e.g. GF-6) properly when the S3 system is not connected to S2.  This advantage is quite signficant if S3 is:
+The SV-3 variation has one significant advantage of SV-2a: it handles ground faults (e.g. GF-6) properly when the S3 system is not connected to S2.  This advantage is quite significant if S3 is:
 
-* At times intentionally disconnected from S2 such that the 'S2- ⇔ S3-' conductor is not available as a return path
+* At times intentionally disconnected from S2 such that the 'S2b- ⇔ S3-' conductor is not available as a return path
 * Attached to alternate collectors and harvesters, which would require rewiring the EGC along with the S3+/S3- power conductors.
 * Very far away from S2, where a continuity disruption could occur along the S2 ⇔ S3 path
 * Attached to other conductors and environments than S2 (e.g. on a habitable metal trailer), increasing the importance of reacting to S3 ground faults without possible (somewhat obscure or even invisible) failures.
 
+If the solar panels are permanently attached to the same facilities as S1 and S2 are residing in, then SV-3 has none of the above advantages and has the disadvantages of:
+* Needing a separate [EE/GE](/topics/#earthing-electrode) and [EEC/GEC](/topics/#earthing-electrode-conductor) 
+* Making sure conduit does not bond S2 and S3 [EGMs](/topics/#equipment-grounding-mesh)
 
 ## [Summary](#summary)
 
