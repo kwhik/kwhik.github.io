@@ -208,7 +208,7 @@ Under no circumstances can S3 be made to handle the equipment grounding requirem
 ## [SV-3: Paired Subsystems](#sv-3-paired-subsystems)
 
 Instead of having SV-1 (Three Independent Power Systems) or SV-2 (A Unified System Equipment Grounding Mesh), we could split the three systems into two pieces.  Given the issues described above with the EGC capacity, and the similarity in grounding between S1 and S2 (along with the bidirectional power-flow aspect between the two systems), the only reasonable variation seems to be:
-   * Pair S1 & S2 into a single EGM
+   * Pair S1 & S2 into a single EGM, with the SBJ and GEC on S1
    * Have S3 have its own EGM independent of S1 & S2
 
 This system architectural variation will be called SV-3.
@@ -217,7 +217,7 @@ This system architectural variation will be called SV-3.
 
 ### [SV-3 • Ground Fault Examples](#sv-3--ground-fault-examples)
 
-There are no new ground-fault paths for SV-3: the paths that a fault takes will either be from SV-1 or from SV-2a.  Showing the example of that for GF-5 below, the path is identical where the unused EGC from S2 to S3 is simply not present.
+There are no new ground-fault paths for SV-3: the paths that a fault takes will either be from SV-1 or from SV-2a.  Showing the example of this characteristic for GF-5 below, we can see the path is identical to '[SV-2a • GF-5](#sv-2a--gf-5)' where the unused EGC from S2 to S3 is simply not present.
 
 
 #### [SV-3 • GF-5](#sv-3--gf-5)
@@ -236,10 +236,10 @@ As was true in SV-2a, the EGC capacity for the circuitous flow of GF-5 uses wire
 
 The SV-3 variation has one significant advantage of SV-2a: it handles ground faults (e.g. GF-6) properly when the S3 system is not connected to S2.  This advantage is quite signficant if S3 is:
 
-* At times intentionally disconnected from S2 such that the S2- ⇔ S3- conductor is not available as a return path
+* At times intentionally disconnected from S2 such that the 'S2- ⇔ S3-' conductor is not available as a return path
 * Attached to alternate collectors and harvesters, which would require rewiring the EGC along with the S3+/S3- power conductors.
 * Very far away from S2, where a continuity disruption could occur along the S2 ⇔ S3 path
-* Attached to other conductors and environments than S2, increasing the importance of reacting to S3 ground faults without possible (somewhat obscure or even invisible) failures.
+* Attached to other conductors and environments than S2 (e.g. on a habitable metal trailer), increasing the importance of reacting to S3 ground faults without possible (somewhat obscure or even invisible) failures.
 
 
 ## [Summary](#summary)
