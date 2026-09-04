@@ -156,7 +156,7 @@ For these more expansive color systems, a number of the colors are only subtly d
 
 The collection of all three new groups is shown in the following table:
 
-<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260903j_w640.png" width="480" alt="Color Labeled Boxes" />
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260904a_c64_w640.png" width="480" alt="Color Labeled Boxes" />
 
 #### [US Map Colored](#us-map-colored)
 
