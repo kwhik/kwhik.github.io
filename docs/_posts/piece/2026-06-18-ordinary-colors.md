@@ -156,7 +156,13 @@ For these more expansive color systems, a number of the colors are only subtly d
 
 The collection of all three new groups is shown in the following table:
 
-<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260619g3_cs64.png" width="480" alt="Color Labeled Boxes" />
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/ColorScheme_mlf20260903j_w640.png" width="480" alt="Color Labeled Boxes" />
+
+#### [US Map with 64 color group](#us-map-with-64-color-group)
+
+Using the group of 64, we can color the US map with unique colors.  The system covers all 62 USPS postal codes in alphabetical order from 'AA' through 'WY'.  The visualization just shows the contiguous states and DC as a subset.
+
+<img src="/images/posts/piece/2026-06-18-ordinary-colors/USA_states_map_layers_mlf20260903j_w1280.png" width="640" alt="US Map" />
 
 ## [Footnotes](#footnotes)
 
