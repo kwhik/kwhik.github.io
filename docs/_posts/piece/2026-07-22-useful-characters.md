@@ -40,3 +40,25 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Approximately Less than or Equal | ⪅ | [U+2A85](https://www.compart.com/en/unicode/U+2A85) |
 | Approximately Greater than or Equal | ⪆ | [U+2A86](https://www.compart.com/en/unicode/U+2A86) |
 | Left Right Double Arrow | ⇔ | [U+21D4](https://www.compart.com/en/unicode/U+21D4) |
+
+### [Set-3](#set-3)
+
+| Name        | Character | Codepoint                                           |
+|-------------|-----------|-----------------------------------------------------|
+| Subscript 0 | ₀         | [U+2080](https://www.compart.com/en/unicode/U+2080) |
+| Subscript 1 | ₁         | [U+2081](https://www.compart.com/en/unicode/U+2081) |
+| Subscript 2 | ₂         | [U+2082](https://www.compart.com/en/unicode/U+2082) |
+| Subscript 3 | ₃         | [U+2083](https://www.compart.com/en/unicode/U+2083) |
+| Subscript 4 | ₄         | [U+2084](https://www.compart.com/en/unicode/U+2084) |
+| Subscript 5 | ₅         | [U+2085](https://www.compart.com/en/unicode/U+2085) |
+| Subscript 6 | ₆         | [U+2086](https://www.compart.com/en/unicode/U+2086) |
+| Subscript 7 | ₇         | [U+2087](https://www.compart.com/en/unicode/U+2087) |
+| Subscript 8 | ₈         | [U+2088](https://www.compart.com/en/unicode/U+2088) |
+| Subscript 9 | ₉         | [U+2089](https://www.compart.com/en/unicode/U+2089) |
+| Subscript a | ₐ         | [U+2090](https://www.compart.com/en/unicode/U+2090) |
+| Subscript e | ₑ         | [U+2091](https://www.compart.com/en/unicode/U+2091) |
+| Subscript x | ₓ         | [U+2093](https://www.compart.com/en/unicode/U+2093) |
+| Subscript h | ₕ         | [U+2095](https://www.compart.com/en/unicode/U+2095) |
+| Subscript k | ₖ         | [U+2096](https://www.compart.com/en/unicode/U+2096) |
+| Subscript m | ₘ         | [U+2098](https://www.compart.com/en/unicode/U+2098) |
+| Subscript n | ₙ         | [U+2099](https://www.compart.com/en/unicode/U+2099) |
