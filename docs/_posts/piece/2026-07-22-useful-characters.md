@@ -62,3 +62,27 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Subscript k | ₖ         | [U+2096](https://www.compart.com/en/unicode/U+2096) |
 | Subscript m | ₘ         | [U+2098](https://www.compart.com/en/unicode/U+2098) |
 | Subscript n | ₙ         | [U+2099](https://www.compart.com/en/unicode/U+2099) |
+
+### [Set-4](#set-4)
+
+| Name            | Character | Codepoint                                            |
+|-----------------|-----------|------------------------------------------------------|
+| Circled 1       | ①         | [U+2460](https://www.compart.com/en/unicode/U+2460)  |
+| Circled 2       | ②         | [U+2461](https://www.compart.com/en/unicode/U+2461)  |
+| Circled 3       | ③         | [U+2462](https://www.compart.com/en/unicode/U+2462)  |
+| Circled 4       | ④         | [U+2463](https://www.compart.com/en/unicode/U+2463)  |
+| Circled 5       | ⑤         | [U+2464](https://www.compart.com/en/unicode/U+2464)  |
+| Circled 6       | ⑥         | [U+2465](https://www.compart.com/en/unicode/U+2465)  |
+| Circled 7       | ⑦         | [U+24666](https://www.compart.com/en/unicode/U+2466) |
+| Circled 8       | ⑧         | [U+2467](https://www.compart.com/en/unicode/U+2467)  |
+| Circled 9       | ⑨         | [U+2468](https://www.compart.com/en/unicode/U+2468)  |
+| Parenthesized 1 | ⑴         | [U+2474](https://www.compart.com/en/unicode/U+2474)  |
+| Parenthesized 2 | ⑵         | [U+2475](https://www.compart.com/en/unicode/U+2475)  |
+| Parenthesized 3 | ⑶         | [U+2476](https://www.compart.com/en/unicode/U+2476)  |
+| Parenthesized 4 | ⑷         | [U+2477](https://www.compart.com/en/unicode/U+2477)  |
+| Parenthesized 5 | ⑸         | [U+2478](https://www.compart.com/en/unicode/U+2478)  |
+| Parenthesized 6 | ⑹         | [U+2479](https://www.compart.com/en/unicode/U+2479)  |
+| Parenthesized 7 | ⑺         | [U+247A](https://www.compart.com/en/unicode/U+247A)  |
+| Parenthesized 8 | ⑻         | [U+247B](https://www.compart.com/en/unicode/U+247B)  |
+| Parenthesized 9 | ⑼         | [U+247C](https://www.compart.com/en/unicode/U+247C)  |
+
