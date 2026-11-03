@@ -29,6 +29,8 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Three-eighths (3/8)           | ⅜         | [U+215C](https://www.compart.com/en/unicode/U+215C) | 
 | Three-quarters (3/4)          | ¾         | [U+00BE](https://www.compart.com/en/unicode/U+00BE) |
 
+Set-1 Summary: ³ « » 〚 〛 … ⅛ ½ ¼ ² ⅜ ¾
+
 ### [Set-2](#set-2)
 
 | Name                          | Character | Codepoint                                           |
@@ -40,6 +42,8 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Approximately Less than or Equal | ⪅ | [U+2A85](https://www.compart.com/en/unicode/U+2A85) |
 | Approximately Greater than or Equal | ⪆ | [U+2A86](https://www.compart.com/en/unicode/U+2A86) |
 | Left Right Double Arrow | ⇔ | [U+21D4](https://www.compart.com/en/unicode/U+21D4) |
+
+Set-2 Summary:  ≦ ≧ ≲ ≳ ⪅ ⪆ ⇔
 
 ### [Set-3](#set-3)
 
@@ -62,6 +66,8 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 | Subscript k | ₖ         | [U+2096](https://www.compart.com/en/unicode/U+2096) |
 | Subscript m | ₘ         | [U+2098](https://www.compart.com/en/unicode/U+2098) |
 | Subscript n | ₙ         | [U+2099](https://www.compart.com/en/unicode/U+2099) |
+
+Set-3 Summary: ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₐ ₑ ₓ ₕ ₖ ₘ ₙ
 
 ### [Set-4](#set-4)
 
