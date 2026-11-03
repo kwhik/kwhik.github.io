@@ -92,3 +92,4 @@ Set-3 Summary: ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₐ ₑ ₓ ₕ ₖ ₘ �
 | Parenthesized 8 | ⑻         | [U+247B](https://www.compart.com/en/unicode/U+247B)  |
 | Parenthesized 9 | ⑼         | [U+247C](https://www.compart.com/en/unicode/U+247C)  |
 
+Set-4 Summary:  ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼
