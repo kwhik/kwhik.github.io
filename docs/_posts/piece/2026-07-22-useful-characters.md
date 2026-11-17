@@ -13,23 +13,25 @@ There are a lot of useful characters in the extended [Unicode](https://home.unic
 
 ### [Set-1](#set-1)
 
-| Name                          | Character | Codepoint                                           |
-|-------------------------------|-----------|-----------------------------------------------------|
-| Cubed (^3)                    | ³         | [U+00B3](https://www.compart.com/en/unicode/U+00B3) |
-| Double-Chevron (Left)         | «         | [U+00AB](https://www.compart.com/en/unicode/U+00AB) |
-| Double-Chevron (Right)        | »         | [U+00BB](https://www.compart.com/en/unicode/U+00BB) |
-| Double-Square-bracket (Left)  | 〚         | [U+301A](https://www.compart.com/en/unicode/U+301A) |
-| Double-Square-bracket (Right) | 〛         | [U+301B](https://www.compart.com/en/unicode/U+301B) |
-| Ellipsis / Ellipses           | …         | [U+2026](https://www.compart.com/en/unicode/U+2026) |
-| Omega (Ohms)            | Ω |  [U+03A9](https://www.compart.com/en/unicode/U+03A9) |
-| One-eighth (1/8)              | ⅛         | [U+215B](https://www.compart.com/en/unicode/U+215B) | 
-| One-half (1/2)                | ½         | [U+00BD](https://www.compart.com/en/unicode/U+00BD) |
-| One-quarter (1/4)             | ¼         | [U+00BC](https://www.compart.com/en/unicode/U+00BC) |
-| Squared    (^2)               | ²         | [U+00B2](https://www.compart.com/en/unicode/U+00B2) |
-| Three-eighths (3/8)           | ⅜         | [U+215C](https://www.compart.com/en/unicode/U+215C) | 
-| Three-quarters (3/4)          | ¾         | [U+00BE](https://www.compart.com/en/unicode/U+00BE) |
 
-Set-1 Summary: ³ « » 〚 〛 … ⅛ ½ ¼ ² ⅜ ¾
+| Name                          | Character | Codepoint                                                                                    |
+|-------------------------------|-----------|----------------------------------------------------------------------------------------------|
+| Capital Delta                 | Δ         | {% include unicoderef.html code="0394" %}                                                    |
+| Cubed (^3)                    | ³         | {% include unicoderef.html code="00B3" %}                                                    |
+| Double-Chevron (Left)         | «         | {% include unicoderef.html code="00AB" %} |
+| Double-Chevron (Right)        | »         | {% include unicoderef.html code="00BB" %}|
+| Double-Square-bracket (Left)  | 〚         | {% include unicoderef.html code="301A" %} |
+| Double-Square-bracket (Right) | 〛         | {% include unicoderef.html code="301B" %} |
+| Ellipsis / Ellipses           | …         | {% include unicoderef.html code="2026" %} |
+| Omega (Ohms)                  | Ω         | {% include unicoderef.html code="03A9" %} |
+| One-eighth (1/8)              | ⅛         | {% include unicoderef.html code="215B" %} | 
+| One-half (1/2)                | ½         | {% include unicoderef.html code="00BD" %} |
+| One-quarter (1/4)             | ¼         | {% include unicoderef.html code="00BC" %} |
+| Squared    (^2)               | ²         | {% include unicoderef.html code="00B2" %} |
+| Three-eighths (3/8)           | ⅜         | {% include unicoderef.html code="215C" %}                                                    | 
+| Three-quarters (3/4)          | ¾         | {% include unicoderef.html code="00BE" %}                                                    |
+
+Set-1 Summary: Δ ³ « » 〚 〛 … ⅛ ½ ¼ ² ⅜ ¾
 
 ### [Set-2](#set-2)
 
