@@ -15,7 +15,7 @@ The "Plug-In Solar Harvester" (PISH) described here is a 48V system that has an 
 This specific PISH is designed:
   * For 1kW of solar (based on an MPPT that has a maximum output of 20A @ 48Vₙ)
   * To store 1.5kWh using a 30A @ 48Vₙ battery
-  * Using one or two MIs that outputting either one or two legs of 120V power
+  * Using one or two MIs that output either one or two legs of 120V power
   * Potentially coupled with one or two CT meters to limit the MI power output
   * Using a low-voltage "battery-protect" cutoff switch to disable MI output
 
