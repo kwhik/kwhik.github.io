@@ -36,6 +36,7 @@ The following pictures of the system are attached:
 * Bottom Shelf: Low-Voltage Cutoff
 * The Two-Microinverter version
 * House (Subpanel) Connection Overview
+* CT Meters and Vue
 * Junction Box (four out, two in)
 
 ##### [The One-Microinverter version](#the-one-microinverter-version)
